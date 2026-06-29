@@ -11,7 +11,7 @@ ReDoc:      http://localhost:8000/redoc
 
 from __future__ import annotations
 
-from fastapi import FastAPI, HTTPException, Query
+from fastapi import FastAPI, HTTPException, Query, File, UploadFile
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel, Field
 from contextlib import asynccontextmanager
@@ -60,11 +60,11 @@ async def lifespan(app: FastAPI):
     """Load (or train) the prediction model at startup."""
     try:
         load_model()
-        print("✅ Hotspot prediction model loaded.")
+        print("[SUCCESS] Hotspot prediction model loaded.")
     except Exception as exc:
-        print(f"⚠️  Model load error: {exc}. Will train on first prediction request.")
+        print(f"[WARNING] Model load error: {exc}. Will train on first prediction request.")
     yield
-    print("🛑 CrimeSphere AI shutting down.")
+    print("[SHUTDOWN] CrimeSphere AI shutting down.")
 
 
 # ---------------------------------------------------------------------------
@@ -287,3 +287,258 @@ def risk_explain(case_id: str):
         raise
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
+
+
+# ---------------------------------------------------------------------------
+# Document Analysis Endpoint
+# ---------------------------------------------------------------------------
+
+import fitz # PyMuPDF
+import docx
+import io
+import os
+import re
+import json
+import google.generativeai as genai
+
+def extract_pdf_text(file_bytes: bytes) -> str:
+    text = ""
+    try:
+        doc = fitz.open(stream=file_bytes, filetype="pdf")
+        for page in doc:
+            text += page.get_text()
+    except Exception as e:
+        print(f"Error extracting PDF: {e}")
+    return text
+
+def extract_docx_text(file_bytes: bytes) -> str:
+    text = ""
+    try:
+        doc = docx.Document(io.BytesIO(file_bytes))
+        text = "\n".join([para.text for para in doc.paragraphs])
+    except Exception as e:
+        print(f"Error extracting DOCX: {e}")
+    return text
+
+def extract_txt_text(file_bytes: bytes) -> str:
+    try:
+        return file_bytes.decode("utf-8", errors="ignore")
+    except Exception as e:
+        print(f"Error extracting TXT: {e}")
+        return ""
+
+def rule_based_crime_analysis(text: str) -> dict:
+    text_lower = text.lower()
+    
+    crime_keywords = [
+        "crime", "police", "arrest", "suspect", "victim", "theft", "stole", "steal", 
+        "robbery", "fraud", "scam", "murder", "assault", "weapon", "incident", "fir", 
+        "complaint", "accused", "offense", "homicide", "burglary", "cybercrime", 
+        "hacker", "cheat", "forge", "attack", "illegal"
+    ]
+    
+    is_crime = any(kw in text_lower for kw in crime_keywords)
+    
+    if not is_crime:
+        summary = "Uploaded document does not contain clear crime-related information."
+        if "certificate" in text_lower or "degree" in text_lower:
+            summary = "Uploaded document appears to be an educational certificate or diploma."
+        elif "invoice" in text_lower or "receipt" in text_lower or "bill" in text_lower:
+            summary = "Uploaded document appears to be a financial receipt or invoice."
+        elif "resume" in text_lower or "cv" in text_lower or "experience" in text_lower:
+            summary = "Uploaded document appears to be a CV or professional resume."
+            
+        return {
+            "documentType": "General Document",
+            "crimeDetected": False,
+            "message": "No crime-related content detected.",
+            "summary": summary,
+            "riskLevel": "None"
+        }
+        
+    crime_type = "General Crime"
+    if "cyber" in text_lower or "online" in text_lower or "phishing" in text_lower or "hacker" in text_lower or "bank fraud" in text_lower:
+        crime_type = "Cyber Fraud"
+    elif "theft" in text_lower or "stole" in text_lower or "stolen" in text_lower:
+        crime_type = "Theft"
+    elif "robbery" in text_lower or "heist" in text_lower:
+        crime_type = "Robbery"
+    elif "murder" in text_lower or "homicide" in text_lower or "killed" in text_lower:
+        crime_type = "Homicide"
+    elif "assault" in text_lower or "beat" in text_lower or "attack" in text_lower:
+        crime_type = "Assault"
+    elif "burglary" in text_lower or "break-in" in text_lower:
+        crime_type = "Burglary"
+        
+    victims = 0
+    victim_match = re.search(r"victims?\s*:?\s*(\d+)", text_lower)
+    if victim_match:
+        victims = int(victim_match.group(1))
+    else:
+        victim_mentions = len(re.findall(r"\bvictim\b", text_lower))
+        if victim_mentions > 0:
+            victims = min(victim_mentions, 5)
+        else:
+            victims = 1
+            
+    suspects = 0
+    suspect_match = re.search(r"suspects?\s*:?\s*(\d+)", text_lower)
+    if suspect_match:
+        suspects = int(suspect_match.group(1))
+    else:
+        suspect_mentions = len(re.findall(r"\bsuspect\b|\baccused\b", text_lower))
+        if suspect_mentions > 0:
+            suspects = min(suspect_mentions, 3)
+        else:
+            suspects = 1
+            
+    locations = []
+    common_cities = ["bengaluru", "bangalore", "mysuru", "mysore", "mumbai", "delhi", "chennai", "kolkata", "hyderabad", "pune", "kochi", "downtown", "south"]
+    for city in common_cities:
+        if re.search(rf"\b{city}\b", text_lower):
+            locations.append(city.capitalize() if city != "bangalore" else "Bengaluru")
+    if not locations:
+        locations = ["Bengaluru"]
+        
+    risk_level = "Medium"
+    has_weapons = any(w in text_lower for w in ["gun", "knife", "pistol", "weapon", "armed", "dagger", "sword"])
+    has_gangs = any(g in text_lower for g in ["gang", "syndicate", "network", "cartel", "group of"])
+    has_violence = any(v in text_lower for v in ["killed", "murdered", "assaulted", "injur", "blood", "stab"])
+    
+    if has_violence or (has_weapons and has_gangs):
+        risk_level = "Critical"
+    elif has_weapons or has_gangs:
+        risk_level = "High"
+    elif "theft" in text_lower or "fraud" in text_lower:
+        risk_level = "Medium"
+    else:
+        risk_level = "Low"
+        
+    recommendations = []
+    if crime_type == "Cyber Fraud":
+        recommendations = [
+            "Freeze linked bank accounts and transaction gateways",
+            "Collect IP logs and ISP session registry details",
+            "Identify linked phone numbers and device MAC addresses"
+        ]
+    elif crime_type == "Theft" or crime_type == "Burglary":
+        recommendations = [
+            "Check local neighborhood CCTV footage feeds",
+            "Conduct forensic lifting of latent fingerprints",
+            "Interview eyewitnesses and active area patrols"
+        ]
+    elif crime_type == "Homicide" or crime_type == "Assault":
+        recommendations = [
+            "Secure the crime scene for forensic inspection",
+            "Request immediate autopsy / medical report",
+            "Locate and secure weapon of offense"
+        ]
+    else:
+        recommendations = [
+            "Deploy local intelligence and surveillance units",
+            "Register formal FIR and assign case officer",
+            "Establish suspect network link diagrams"
+        ]
+        
+    summary = f"Incident report indicating occurrence of {crime_type} in {', '.join(locations)}. "
+    if suspects > 0:
+        summary += f"The report lists {suspects} suspect(s) and "
+    summary += f"{victims} victim(s) affected."
+    
+    return {
+        "documentType": "Crime Report",
+        "crimeDetected": True,
+        "crimeType": crime_type,
+        "summary": summary,
+        "riskLevel": risk_level,
+        "victims": victims,
+        "suspects": suspects,
+        "locations": locations,
+        "recommendations": recommendations,
+        "confidence": 85
+    }
+
+def analyze_text_for_crime(text: str) -> dict:
+    api_key = os.environ.get("GEMINI_API_KEY")
+    if api_key:
+        try:
+            genai.configure(api_key=api_key)
+            model = genai.GenerativeModel("gemini-1.5-flash")
+            
+            prompt = f"""
+            You are a Crime Analyst AI. Analyze the following document text and extract details.
+            Respond ONLY with a valid JSON block containing the fields specified below.
+            Do not include any markdown backticks (like ```json) or explanation outside the JSON. Just return the raw JSON string.
+
+            If the text contains crime or incident report information:
+            {{
+                "documentType": "Crime Report",
+                "crimeDetected": true,
+                "crimeType": "<Type of crime, e.g. Cyber Fraud, Theft, Homicide, etc.>",
+                "summary": "<A concise 1-2 sentence case summary of what happened>",
+                "riskLevel": "<High, Medium, Low, or Critical based on weapon involvement, gang ties, recidivism, or severity>",
+                "victims": <Integer number of victims mentioned, default 0>,
+                "suspects": <Integer number of suspects mentioned, default 0>,
+                "locations": ["<List of cities or locations mentioned>"],
+                "recommendations": ["<List of recommended immediate investigator actions>"],
+                "confidence": <Integer score 0-100 indicating extraction confidence>
+            }}
+
+            If the text does NOT contain any crime, incident, or illegal activity related information:
+            {{
+                "documentType": "General Document",
+                "crimeDetected": false,
+                "message": "No crime-related content detected.",
+                "summary": "<1-2 sentence explanation of what the document appears to be, e.g., educational certificate, invoice, etc.>",
+                "riskLevel": "None"
+            }}
+
+            Document text to analyze:
+            \"\"\"{text}\"\"\"
+            """
+            
+            response = model.generate_content(prompt)
+            response_text = response.text.strip()
+            
+            if response_text.startswith("```"):
+                lines = response_text.splitlines()
+                if lines[0].startswith("```"):
+                    lines = lines[1:]
+                if lines and lines[-1].startswith("```"):
+                    lines = lines[:-1]
+                response_text = "\n".join(lines).strip()
+            
+            analysis_dict = json.loads(response_text)
+            if "crimeDetected" not in analysis_dict:
+                analysis_dict["crimeDetected"] = (analysis_dict.get("documentType") == "Crime Report" or analysis_dict.get("crimeType") is not None)
+            return analysis_dict
+        except Exception as e:
+            print(f"Gemini API analysis failed, falling back to rule-based: {e}")
+            
+    return rule_based_crime_analysis(text)
+
+@app.post("/analyze-document", tags=["Document Analysis"], summary="Analyze uploaded document for crime information")
+async def analyze_document_endpoint(file: UploadFile = File(...)):
+    try:
+        content = await file.read()
+        filename = file.filename or ""
+        ext = filename.split(".")[-1].lower() if "." in filename else ""
+        
+        if ext == "pdf":
+            text = extract_pdf_text(content)
+        elif ext in ("docx", "doc"):
+            text = extract_docx_text(content)
+        elif ext == "txt":
+            text = extract_txt_text(content)
+        else:
+            return error_response("Unsupported file type. Please upload a PDF, DOCX, or TXT file.", code=400)
+            
+        if not text.strip():
+            return error_response("The uploaded file is empty or contains no readable text.", code=400)
+            
+        result = analyze_text_for_crime(text)
+        return success_response(result)
+    except Exception as e:
+        import traceback
+        traceback.print_exc()
+        return error_response(f"Document analysis failed: {str(e)}", code=500)
