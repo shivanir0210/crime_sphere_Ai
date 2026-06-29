@@ -1,0 +1,501 @@
+fir_id,crime_type,title,description,victim_name,victim_age,offender_name,location,date,status,amount_lost,evidence_type,severity,prediction_label
+FIR001,Theft,Theft Case,Theft reported in Madurai,Ajay,58,Prakash,Madurai,2025-09-26,Resolved,308065,Bank Records,Critical,Solved
+FIR002,Robbery,Robbery Case,Robbery reported in Erode,Arjun,50,Hari,Erode,2025-08-22,Open,166079,Email Logs,High,Solved
+FIR003,Kidnapping,Kidnapping Case,Kidnapping reported in Madurai,Suresh,26,Ashok,Madurai,2025-07-23,Closed,276323,Mobile Data,Medium,Unsolved
+FIR004,Robbery,Robbery Case,Robbery reported in Vellore,Ajay,51,Bharath,Vellore,2026-02-15,Resolved,101349,Email Logs,Critical,Unsolved
+FIR005,Fraud,Fraud Case,Fraud reported in Erode,Anitha,40,Manoj,Erode,2025-12-30,Under Investigation,115647,Mobile Data,Medium,Solved
+FIR006,Cyber Crime,Cyber Crime Case,Cyber Crime reported in Erode,Kavin,49,Vikram,Erode,2025-08-26,Under Investigation,263956,Email Logs,Low,Solved
+FIR007,Drug Crime,Drug Crime Case,Drug Crime reported in Trichy,Deepak,51,Raj,Trichy,2025-12-07,Open,118459,Mobile Data,Medium,Solved
+FIR008,Domestic Violence,Domestic Violence Case,Domestic Violence reported in Trichy,Ramesh,58,Sarath,Trichy,2025-10-20,Closed,316156,Mobile Data,High,Unsolved
+FIR009,Assault,Assault Case,Assault reported in Chennai,Anitha,53,Senthil,Chennai,2025-12-17,Resolved,286976,Bank Records,High,Solved
+FIR010,Fraud,Fraud Case,Fraud reported in Madurai,Divya,50,Hari,Madurai,2025-07-30,Resolved,471999,Email Logs,High,Unsolved
+FIR011,Burglary,Burglary Case,Burglary reported in Trichy,Meena,37,Bharath,Trichy,2025-08-12,Resolved,390425,Mobile Data,High,Unsolved
+FIR012,Fraud,Fraud Case,Fraud reported in Salem,Naveen,55,Vikram,Salem,2026-06-02,Closed,407369,CCTV,Medium,Unsolved
+FIR013,Fraud,Fraud Case,Fraud reported in Salem,Priya,19,Vikram,Salem,2025-08-12,Closed,47476,CCTV,Low,Solved
+FIR014,Kidnapping,Kidnapping Case,Kidnapping reported in Chennai,Ramesh,57,Sarath,Chennai,2025-08-01,Closed,7986,Bank Records,Critical,Unsolved
+FIR015,Financial Crime,Financial Crime Case,Financial Crime reported in Trichy,Meena,56,Madhan,Trichy,2026-03-16,Under Investigation,446058,Mobile Data,Medium,Unsolved
+FIR016,Financial Crime,Financial Crime Case,Financial Crime reported in Salem,Divya,38,Sarath,Salem,2025-09-23,Open,292075,Mobile Data,Low,Solved
+FIR017,Cyber Crime,Cyber Crime Case,Cyber Crime reported in Chennai,Meena,35,Hari,Chennai,2026-03-26,Resolved,352746,Email Logs,Low,Solved
+FIR018,Kidnapping,Kidnapping Case,Kidnapping reported in Erode,Ramesh,34,Senthil,Erode,2026-02-27,Under Investigation,425428,CCTV,Critical,Solved
+FIR019,Kidnapping,Kidnapping Case,Kidnapping reported in Coimbatore,Ramesh,39,Surya,Coimbatore,2026-02-24,Under Investigation,88627,Bank Records,High,Unsolved
+FIR020,Fraud,Fraud Case,Fraud reported in Trichy,Naveen,56,Manoj,Trichy,2026-02-01,Closed,111726,CCTV,High,Solved
+FIR021,Kidnapping,Kidnapping Case,Kidnapping reported in Salem,Kavin,37,Prakash,Salem,2026-06-04,Closed,176595,Fingerprint,Medium,Unsolved
+FIR022,Financial Crime,Financial Crime Case,Financial Crime reported in Coimbatore,Suresh,50,Ashok,Coimbatore,2025-11-30,Open,267557,Email Logs,Medium,Solved
+FIR023,Theft,Theft Case,Theft reported in Salem,Anitha,23,Madhan,Salem,2026-05-05,Resolved,107458,Email Logs,Low,Unsolved
+FIR024,Fraud,Fraud Case,Fraud reported in Vellore,Vignesh,46,Senthil,Vellore,2025-09-02,Resolved,119277,Mobile Data,Low,Solved
+FIR025,Domestic Violence,Domestic Violence Case,Domestic Violence reported in Salem,Kavin,57,Bharath,Salem,2025-11-21,Under Investigation,3960,Mobile Data,Medium,Unsolved
+FIR026,Assault,Assault Case,Assault reported in Chennai,Kavin,56,Senthil,Chennai,2026-04-11,Closed,36831,Fingerprint,Low,Unsolved
+FIR027,Burglary,Burglary Case,Burglary reported in Madurai,Arjun,45,Aravind,Madurai,2025-11-12,Under Investigation,279293,Bank Records,Low,Solved
+FIR028,Burglary,Burglary Case,Burglary reported in Chennai,Arjun,54,Bharath,Chennai,2026-03-31,Open,243719,Bank Records,Low,Solved
+FIR029,Robbery,Robbery Case,Robbery reported in Madurai,Rahul,35,Raj,Madurai,2026-04-01,Under Investigation,347749,CCTV,Low,Solved
+FIR030,Cyber Crime,Cyber Crime Case,Cyber Crime reported in Coimbatore,Kavin,29,Madhan,Coimbatore,2026-06-14,Closed,382182,Witness,Low,Unsolved
+FIR031,Burglary,Burglary Case,Burglary reported in Tiruppur,Deepak,23,Sarath,Tiruppur,2025-08-28,Resolved,10873,Bank Records,Low,Unsolved
+FIR032,Drug Crime,Drug Crime Case,Drug Crime reported in Erode,Naveen,51,Raj,Erode,2026-06-19,Resolved,299760,Witness,Critical,Solved
+FIR033,Assault,Assault Case,Assault reported in Madurai,Rahul,58,Surya,Madurai,2025-11-14,Open,412942,Fingerprint,Critical,Unsolved
+FIR034,Fraud,Fraud Case,Fraud reported in Vellore,Vignesh,34,Manoj,Vellore,2025-09-12,Under Investigation,343132,Email Logs,Low,Unsolved
+FIR035,Theft,Theft Case,Theft reported in Coimbatore,Priya,37,Dinesh,Coimbatore,2026-02-14,Open,112234,Witness,Critical,Unsolved
+FIR036,Drug Crime,Drug Crime Case,Drug Crime reported in Vellore,Suresh,50,Hari,Vellore,2026-05-07,Resolved,273268,CCTV,Medium,Unsolved
+FIR037,Financial Crime,Financial Crime Case,Financial Crime reported in Madurai,Anitha,30,Madhan,Madurai,2025-09-12,Resolved,485732,Fingerprint,Low,Unsolved
+FIR038,Domestic Violence,Domestic Violence Case,Domestic Violence reported in Madurai,Arjun,21,Ashok,Madurai,2026-06-11,Open,435728,CCTV,Critical,Unsolved
+FIR039,Drug Crime,Drug Crime Case,Drug Crime reported in Salem,Meena,21,Dinesh,Salem,2025-10-22,Resolved,37314,Mobile Data,Medium,Solved
+FIR040,Theft,Theft Case,Theft reported in Madurai,Kavin,39,Sarath,Madurai,2026-01-13,Resolved,52958,CCTV,Low,Unsolved
+FIR041,Financial Crime,Financial Crime Case,Financial Crime reported in Tiruppur,Harini,36,Sarath,Tiruppur,2026-05-31,Closed,233227,CCTV,Medium,Solved
+FIR042,Kidnapping,Kidnapping Case,Kidnapping reported in Salem,Kavin,35,Prakash,Salem,2025-12-31,Under Investigation,86561,Witness,Critical,Solved
+FIR043,Assault,Assault Case,Assault reported in Madurai,Priya,27,Manoj,Madurai,2026-05-12,Open,175687,Bank Records,Critical,Solved
+FIR044,Drug Crime,Drug Crime Case,Drug Crime reported in Chennai,Naveen,28,Manoj,Chennai,2025-10-10,Closed,380566,Email Logs,High,Solved
+FIR045,Domestic Violence,Domestic Violence Case,Domestic Violence reported in Coimbatore,Rahul,28,Vikram,Coimbatore,2025-08-06,Resolved,364700,Email Logs,Critical,Solved
+FIR046,Burglary,Burglary Case,Burglary reported in Erode,Rahul,24,Madhan,Erode,2026-02-06,Under Investigation,286096,Fingerprint,Critical,Unsolved
+FIR047,Drug Crime,Drug Crime Case,Drug Crime reported in Salem,Priya,24,Manoj,Salem,2025-11-30,Resolved,124740,Witness,High,Solved
+FIR048,Financial Crime,Financial Crime Case,Financial Crime reported in Salem,Rahul,56,Dinesh,Salem,2026-04-05,Open,158542,Email Logs,Critical,Unsolved
+FIR049,Robbery,Robbery Case,Robbery reported in Chennai,Priya,58,Senthil,Chennai,2026-01-23,Resolved,388693,Email Logs,Critical,Solved
+FIR050,Assault,Assault Case,Assault reported in Coimbatore,Anitha,52,Gokul,Coimbatore,2026-02-01,Open,394635,CCTV,Medium,Solved
+FIR051,Robbery,Robbery Case,Robbery reported in Erode,Arjun,57,Raj,Erode,2025-11-04,Open,441626,Bank Records,Low,Solved
+FIR052,Kidnapping,Kidnapping Case,Kidnapping reported in Chennai,Naveen,49,Aravind,Chennai,2025-09-27,Resolved,258227,Mobile Data,Critical,Solved
+FIR053,Domestic Violence,Domestic Violence Case,Domestic Violence reported in Madurai,Ajay,57,Hari,Madurai,2026-06-19,Resolved,266716,CCTV,Low,Unsolved
+FIR054,Fraud,Fraud Case,Fraud reported in Chennai,Ramesh,36,Ashok,Chennai,2025-10-10,Closed,165426,Mobile Data,Medium,Unsolved
+FIR055,Assault,Assault Case,Assault reported in Erode,Anitha,41,Vikram,Erode,2026-01-22,Open,394254,CCTV,Low,Solved
+FIR056,Domestic Violence,Domestic Violence Case,Domestic Violence reported in Trichy,Ajay,21,Surya,Trichy,2025-12-14,Resolved,42838,Mobile Data,Medium,Unsolved
+FIR057,Burglary,Burglary Case,Burglary reported in Trichy,Swetha,27,Senthil,Trichy,2026-06-28,Resolved,324385,Email Logs,Low,Unsolved
+FIR058,Assault,Assault Case,Assault reported in Vellore,Rahul,41,Hari,Vellore,2026-06-09,Closed,232298,CCTV,Critical,Unsolved
+FIR059,Fraud,Fraud Case,Fraud reported in Trichy,Vignesh,55,Manoj,Trichy,2025-08-03,Closed,328770,Email Logs,Critical,Solved
+FIR060,Burglary,Burglary Case,Burglary reported in Erode,Divya,19,Surya,Erode,2025-08-07,Open,323372,Mobile Data,Critical,Solved
+FIR061,Fraud,Fraud Case,Fraud reported in Chennai,Priya,50,Hari,Chennai,2025-08-18,Closed,377708,CCTV,Low,Solved
+FIR062,Domestic Violence,Domestic Violence Case,Domestic Violence reported in Salem,Naveen,57,Aravind,Salem,2026-01-21,Open,307483,Mobile Data,Critical,Solved
+FIR063,Cyber Crime,Cyber Crime Case,Cyber Crime reported in Erode,Kavin,51,Hari,Erode,2026-01-26,Resolved,136282,Bank Records,Critical,Unsolved
+FIR064,Assault,Assault Case,Assault reported in Tiruppur,Priya,22,Gokul,Tiruppur,2025-10-30,Closed,443798,Email Logs,Critical,Unsolved
+FIR065,Fraud,Fraud Case,Fraud reported in Tiruppur,Deepak,29,Madhan,Tiruppur,2025-09-24,Closed,226871,Bank Records,Low,Unsolved
+FIR066,Drug Crime,Drug Crime Case,Drug Crime reported in Erode,Deepak,43,Surya,Erode,2026-03-06,Under Investigation,413606,Mobile Data,Medium,Solved
+FIR067,Burglary,Burglary Case,Burglary reported in Erode,Priya,19,Gokul,Erode,2025-11-26,Open,453806,Mobile Data,High,Unsolved
+FIR068,Kidnapping,Kidnapping Case,Kidnapping reported in Vellore,Ajay,59,Manoj,Vellore,2026-06-10,Closed,277415,Fingerprint,Critical,Solved
+FIR069,Assault,Assault Case,Assault reported in Trichy,Meena,56,Prakash,Trichy,2026-06-15,Resolved,369097,Bank Records,Critical,Unsolved
+FIR070,Assault,Assault Case,Assault reported in Tiruppur,Ajay,52,Kumar,Tiruppur,2025-08-14,Closed,487534,Witness,High,Solved
+FIR071,Domestic Violence,Domestic Violence Case,Domestic Violence reported in Salem,Priya,24,Senthil,Salem,2026-04-09,Resolved,70916,Email Logs,Critical,Unsolved
+FIR072,Domestic Violence,Domestic Violence Case,Domestic Violence reported in Salem,Kavin,30,Raj,Salem,2025-11-11,Resolved,19543,Bank Records,High,Solved
+FIR073,Financial Crime,Financial Crime Case,Financial Crime reported in Coimbatore,Ajay,32,Senthil,Coimbatore,2026-05-13,Open,368888,Fingerprint,Medium,Solved
+FIR074,Drug Crime,Drug Crime Case,Drug Crime reported in Madurai,Kavin,57,Senthil,Madurai,2025-07-08,Closed,120418,Witness,Critical,Unsolved
+FIR075,Drug Crime,Drug Crime Case,Drug Crime reported in Madurai,Rahul,55,Vikram,Madurai,2026-03-17,Open,219574,Mobile Data,Low,Solved
+FIR076,Assault,Assault Case,Assault reported in Trichy,Ajay,40,Ashok,Trichy,2026-02-13,Under Investigation,96516,Fingerprint,Critical,Solved
+FIR077,Fraud,Fraud Case,Fraud reported in Salem,Anitha,29,Vikram,Salem,2026-05-15,Closed,15113,CCTV,Medium,Solved
+FIR078,Kidnapping,Kidnapping Case,Kidnapping reported in Vellore,Ajay,35,Madhan,Vellore,2026-05-21,Resolved,281669,Fingerprint,Critical,Solved
+FIR079,Fraud,Fraud Case,Fraud reported in Coimbatore,Deepak,47,Aravind,Coimbatore,2026-01-25,Closed,224216,Witness,Medium,Unsolved
+FIR080,Drug Crime,Drug Crime Case,Drug Crime reported in Coimbatore,Divya,46,Vikram,Coimbatore,2025-11-21,Under Investigation,110314,Fingerprint,Critical,Solved
+FIR081,Robbery,Robbery Case,Robbery reported in Chennai,Priya,45,Aravind,Chennai,2026-06-12,Under Investigation,225468,Bank Records,Low,Solved
+FIR082,Domestic Violence,Domestic Violence Case,Domestic Violence reported in Chennai,Kavin,18,Manoj,Chennai,2026-03-26,Resolved,173815,Email Logs,Low,Unsolved
+FIR083,Financial Crime,Financial Crime Case,Financial Crime reported in Salem,Meena,33,Prakash,Salem,2026-04-02,Open,87640,CCTV,High,Solved
+FIR084,Kidnapping,Kidnapping Case,Kidnapping reported in Tiruppur,Vignesh,48,Aravind,Tiruppur,2026-01-01,Closed,124677,Witness,Low,Unsolved
+FIR085,Domestic Violence,Domestic Violence Case,Domestic Violence reported in Erode,Suresh,48,Surya,Erode,2025-09-06,Open,57917,Bank Records,Low,Solved
+FIR086,Assault,Assault Case,Assault reported in Vellore,Divya,41,Kumar,Vellore,2025-11-28,Open,183531,Fingerprint,Medium,Solved
+FIR087,Kidnapping,Kidnapping Case,Kidnapping reported in Salem,Anitha,20,Kumar,Salem,2026-05-06,Under Investigation,7104,CCTV,Medium,Solved
+FIR088,Drug Crime,Drug Crime Case,Drug Crime reported in Chennai,Vignesh,31,Bharath,Chennai,2025-12-05,Closed,19503,Email Logs,Medium,Solved
+FIR089,Financial Crime,Financial Crime Case,Financial Crime reported in Trichy,Vignesh,42,Prakash,Trichy,2026-04-20,Closed,205162,CCTV,Medium,Solved
+FIR090,Kidnapping,Kidnapping Case,Kidnapping reported in Madurai,Priya,51,Manoj,Madurai,2026-02-15,Under Investigation,221241,CCTV,Medium,Unsolved
+FIR091,Drug Crime,Drug Crime Case,Drug Crime reported in Trichy,Anitha,38,Aravind,Trichy,2026-01-17,Under Investigation,308133,Email Logs,Low,Solved
+FIR092,Fraud,Fraud Case,Fraud reported in Erode,Deepak,29,Aravind,Erode,2025-07-27,Open,309197,Mobile Data,Medium,Unsolved
+FIR093,Financial Crime,Financial Crime Case,Financial Crime reported in Madurai,Priya,51,Vikram,Madurai,2026-03-07,Closed,264620,Witness,High,Solved
+FIR094,Robbery,Robbery Case,Robbery reported in Coimbatore,Suresh,53,Kumar,Coimbatore,2025-11-04,Under Investigation,82364,Email Logs,Low,Unsolved
+FIR095,Cyber Crime,Cyber Crime Case,Cyber Crime reported in Trichy,Naveen,35,Sarath,Trichy,2025-11-19,Under Investigation,422136,Witness,Medium,Unsolved
+FIR096,Assault,Assault Case,Assault reported in Tiruppur,Rahul,22,Aravind,Tiruppur,2026-04-05,Resolved,51501,Mobile Data,Medium,Unsolved
+FIR097,Kidnapping,Kidnapping Case,Kidnapping reported in Erode,Priya,26,Raj,Erode,2026-05-07,Open,369506,Email Logs,Critical,Unsolved
+FIR098,Domestic Violence,Domestic Violence Case,Domestic Violence reported in Chennai,Divya,21,Vikram,Chennai,2025-08-31,Under Investigation,265245,Email Logs,Low,Solved
+FIR099,Theft,Theft Case,Theft reported in Salem,Ramesh,51,Ashok,Salem,2025-10-31,Open,369736,Email Logs,High,Solved
+FIR100,Fraud,Fraud Case,Fraud reported in Trichy,Naveen,39,Madhan,Trichy,2025-10-06,Under Investigation,122860,Email Logs,High,Unsolved
+FIR101,Domestic Violence,Domestic Violence Case,Domestic Violence reported in Coimbatore,Ramesh,44,Hari,Coimbatore,2025-12-17,Resolved,434071,Fingerprint,Low,Unsolved
+FIR102,Domestic Violence,Domestic Violence Case,Domestic Violence reported in Erode,Kavin,60,Hari,Erode,2025-11-08,Closed,482076,Witness,High,Unsolved
+FIR103,Drug Crime,Drug Crime Case,Drug Crime reported in Trichy,Priya,38,Senthil,Trichy,2026-02-23,Open,438330,Email Logs,Medium,Solved
+FIR104,Assault,Assault Case,Assault reported in Vellore,Swetha,46,Aravind,Vellore,2025-08-05,Closed,187225,Email Logs,Low,Solved
+FIR105,Financial Crime,Financial Crime Case,Financial Crime reported in Coimbatore,Meena,49,Vikram,Coimbatore,2026-01-19,Under Investigation,186215,Email Logs,High,Unsolved
+FIR106,Domestic Violence,Domestic Violence Case,Domestic Violence reported in Erode,Suresh,47,Dinesh,Erode,2026-01-08,Open,433004,Bank Records,Low,Solved
+FIR107,Kidnapping,Kidnapping Case,Kidnapping reported in Madurai,Ajay,26,Ashok,Madurai,2026-03-01,Resolved,312474,Witness,Low,Unsolved
+FIR108,Assault,Assault Case,Assault reported in Trichy,Naveen,47,Senthil,Trichy,2026-03-31,Closed,236498,Email Logs,Low,Solved
+FIR109,Drug Crime,Drug Crime Case,Drug Crime reported in Salem,Anitha,48,Aravind,Salem,2026-06-02,Resolved,251337,Fingerprint,High,Solved
+FIR110,Kidnapping,Kidnapping Case,Kidnapping reported in Salem,Suresh,58,Aravind,Salem,2025-08-31,Closed,231476,Fingerprint,Medium,Solved
+FIR111,Burglary,Burglary Case,Burglary reported in Madurai,Rahul,54,Bharath,Madurai,2025-10-29,Resolved,389884,Mobile Data,Low,Unsolved
+FIR112,Robbery,Robbery Case,Robbery reported in Chennai,Suresh,52,Sarath,Chennai,2025-08-07,Open,404195,Mobile Data,High,Solved
+FIR113,Drug Crime,Drug Crime Case,Drug Crime reported in Chennai,Ramesh,27,Senthil,Chennai,2026-01-19,Open,367661,Witness,High,Unsolved
+FIR114,Robbery,Robbery Case,Robbery reported in Madurai,Rahul,47,Manoj,Madurai,2025-11-11,Open,388045,Fingerprint,Critical,Solved
+FIR115,Kidnapping,Kidnapping Case,Kidnapping reported in Erode,Ramesh,44,Madhan,Erode,2026-02-04,Closed,98928,Witness,Medium,Solved
+FIR116,Assault,Assault Case,Assault reported in Chennai,Swetha,44,Bharath,Chennai,2026-04-09,Under Investigation,207726,Mobile Data,Critical,Solved
+FIR117,Cyber Crime,Cyber Crime Case,Cyber Crime reported in Erode,Vignesh,18,Surya,Erode,2025-10-31,Closed,455209,Bank Records,Low,Solved
+FIR118,Kidnapping,Kidnapping Case,Kidnapping reported in Erode,Suresh,24,Raj,Erode,2026-02-09,Closed,420070,Bank Records,Medium,Solved
+FIR119,Financial Crime,Financial Crime Case,Financial Crime reported in Madurai,Meena,39,Bharath,Madurai,2025-09-16,Closed,388821,Bank Records,Medium,Solved
+FIR120,Burglary,Burglary Case,Burglary reported in Coimbatore,Suresh,47,Dinesh,Coimbatore,2026-05-27,Under Investigation,402743,Email Logs,High,Unsolved
+FIR121,Robbery,Robbery Case,Robbery reported in Madurai,Harini,47,Bharath,Madurai,2026-02-16,Closed,322026,Fingerprint,Critical,Solved
+FIR122,Robbery,Robbery Case,Robbery reported in Erode,Meena,22,Surya,Erode,2026-03-06,Open,254045,Fingerprint,High,Unsolved
+FIR123,Kidnapping,Kidnapping Case,Kidnapping reported in Vellore,Ramesh,47,Hari,Vellore,2026-06-05,Closed,138496,Bank Records,High,Solved
+FIR124,Theft,Theft Case,Theft reported in Tiruppur,Anitha,53,Dinesh,Tiruppur,2026-06-13,Open,243231,CCTV,Medium,Unsolved
+FIR125,Kidnapping,Kidnapping Case,Kidnapping reported in Chennai,Suresh,53,Gokul,Chennai,2025-08-26,Resolved,92283,Witness,High,Unsolved
+FIR126,Financial Crime,Financial Crime Case,Financial Crime reported in Madurai,Ajay,40,Prakash,Madurai,2026-03-09,Open,103112,CCTV,Low,Solved
+FIR127,Robbery,Robbery Case,Robbery reported in Erode,Suresh,52,Prakash,Erode,2025-07-28,Open,148027,Witness,Low,Unsolved
+FIR128,Theft,Theft Case,Theft reported in Trichy,Ajay,31,Kumar,Trichy,2026-05-25,Resolved,299229,Witness,High,Unsolved
+FIR129,Drug Crime,Drug Crime Case,Drug Crime reported in Erode,Deepak,46,Dinesh,Erode,2025-12-23,Open,395823,Fingerprint,Medium,Solved
+FIR130,Domestic Violence,Domestic Violence Case,Domestic Violence reported in Salem,Harini,21,Raj,Salem,2025-08-07,Open,138018,Bank Records,Medium,Solved
+FIR131,Cyber Crime,Cyber Crime Case,Cyber Crime reported in Tiruppur,Anitha,60,Prakash,Tiruppur,2026-05-25,Open,278900,Bank Records,Medium,Solved
+FIR132,Theft,Theft Case,Theft reported in Tiruppur,Meena,36,Madhan,Tiruppur,2025-09-17,Closed,458980,Witness,High,Solved
+FIR133,Financial Crime,Financial Crime Case,Financial Crime reported in Coimbatore,Ajay,25,Hari,Coimbatore,2025-08-31,Resolved,414522,Bank Records,Low,Solved
+FIR134,Assault,Assault Case,Assault reported in Vellore,Rahul,54,Madhan,Vellore,2025-08-23,Open,214336,Witness,High,Solved
+FIR135,Fraud,Fraud Case,Fraud reported in Salem,Ramesh,36,Aravind,Salem,2025-07-02,Closed,293293,Email Logs,High,Unsolved
+FIR136,Theft,Theft Case,Theft reported in Chennai,Kavin,28,Surya,Chennai,2025-10-13,Under Investigation,302470,Fingerprint,High,Unsolved
+FIR137,Assault,Assault Case,Assault reported in Tiruppur,Ajay,51,Sarath,Tiruppur,2026-05-11,Open,353225,Email Logs,Critical,Solved
+FIR138,Cyber Crime,Cyber Crime Case,Cyber Crime reported in Trichy,Naveen,53,Aravind,Trichy,2026-06-20,Open,424843,CCTV,Low,Unsolved
+FIR139,Assault,Assault Case,Assault reported in Tiruppur,Harini,32,Dinesh,Tiruppur,2025-08-13,Open,180327,Bank Records,Critical,Unsolved
+FIR140,Robbery,Robbery Case,Robbery reported in Tiruppur,Harini,51,Dinesh,Tiruppur,2026-04-03,Closed,22331,Fingerprint,High,Solved
+FIR141,Cyber Crime,Cyber Crime Case,Cyber Crime reported in Trichy,Anitha,30,Sarath,Trichy,2025-12-02,Under Investigation,65632,Witness,Critical,Solved
+FIR142,Drug Crime,Drug Crime Case,Drug Crime reported in Chennai,Vignesh,32,Vikram,Chennai,2025-12-07,Closed,340608,Email Logs,Critical,Solved
+FIR143,Burglary,Burglary Case,Burglary reported in Vellore,Suresh,26,Madhan,Vellore,2026-05-12,Under Investigation,134686,Fingerprint,Low,Solved
+FIR144,Fraud,Fraud Case,Fraud reported in Vellore,Ajay,32,Surya,Vellore,2025-07-08,Closed,450870,Fingerprint,High,Solved
+FIR145,Assault,Assault Case,Assault reported in Trichy,Naveen,43,Kumar,Trichy,2026-04-24,Closed,319811,Bank Records,Low,Solved
+FIR146,Kidnapping,Kidnapping Case,Kidnapping reported in Tiruppur,Priya,48,Gokul,Tiruppur,2025-11-10,Under Investigation,177580,Bank Records,Low,Solved
+FIR147,Fraud,Fraud Case,Fraud reported in Coimbatore,Kavin,40,Ashok,Coimbatore,2025-08-24,Under Investigation,277958,Mobile Data,High,Solved
+FIR148,Drug Crime,Drug Crime Case,Drug Crime reported in Erode,Arjun,30,Manoj,Erode,2026-01-20,Closed,318619,Bank Records,High,Solved
+FIR149,Burglary,Burglary Case,Burglary reported in Coimbatore,Ajay,43,Madhan,Coimbatore,2025-08-18,Resolved,445132,Mobile Data,High,Solved
+FIR150,Fraud,Fraud Case,Fraud reported in Salem,Vignesh,42,Gokul,Salem,2026-01-18,Closed,26241,Witness,Medium,Unsolved
+FIR151,Cyber Crime,Cyber Crime Case,Cyber Crime reported in Salem,Kavin,48,Surya,Salem,2026-04-27,Under Investigation,252633,Mobile Data,Critical,Unsolved
+FIR152,Burglary,Burglary Case,Burglary reported in Tiruppur,Suresh,42,Ashok,Tiruppur,2025-08-15,Resolved,202020,Fingerprint,Medium,Solved
+FIR153,Theft,Theft Case,Theft reported in Coimbatore,Anitha,21,Madhan,Coimbatore,2025-10-29,Closed,233347,CCTV,Medium,Solved
+FIR154,Financial Crime,Financial Crime Case,Financial Crime reported in Vellore,Ajay,18,Aravind,Vellore,2026-02-19,Resolved,278111,CCTV,High,Unsolved
+FIR155,Assault,Assault Case,Assault reported in Madurai,Priya,32,Surya,Madurai,2026-02-16,Resolved,394228,Fingerprint,Critical,Solved
+FIR156,Assault,Assault Case,Assault reported in Madurai,Harini,20,Bharath,Madurai,2025-10-15,Closed,149643,CCTV,High,Unsolved
+FIR157,Burglary,Burglary Case,Burglary reported in Coimbatore,Arjun,59,Senthil,Coimbatore,2026-06-07,Open,360987,Email Logs,Critical,Unsolved
+FIR158,Drug Crime,Drug Crime Case,Drug Crime reported in Coimbatore,Rahul,44,Hari,Coimbatore,2025-11-26,Resolved,39825,Bank Records,Medium,Unsolved
+FIR159,Financial Crime,Financial Crime Case,Financial Crime reported in Tiruppur,Divya,44,Ashok,Tiruppur,2025-07-27,Open,306342,Fingerprint,Critical,Unsolved
+FIR160,Fraud,Fraud Case,Fraud reported in Erode,Meena,25,Raj,Erode,2025-10-05,Open,52697,Email Logs,Critical,Unsolved
+FIR161,Burglary,Burglary Case,Burglary reported in Coimbatore,Divya,50,Dinesh,Coimbatore,2025-09-22,Closed,395238,Fingerprint,High,Solved
+FIR162,Kidnapping,Kidnapping Case,Kidnapping reported in Salem,Divya,41,Senthil,Salem,2025-07-28,Closed,354172,Fingerprint,Medium,Solved
+FIR163,Burglary,Burglary Case,Burglary reported in Chennai,Naveen,26,Raj,Chennai,2026-06-07,Resolved,154971,Witness,High,Unsolved
+FIR164,Kidnapping,Kidnapping Case,Kidnapping reported in Madurai,Vignesh,55,Vikram,Madurai,2025-11-27,Open,446358,Email Logs,Low,Unsolved
+FIR165,Kidnapping,Kidnapping Case,Kidnapping reported in Coimbatore,Ramesh,37,Bharath,Coimbatore,2026-02-28,Closed,475363,Email Logs,Medium,Unsolved
+FIR166,Assault,Assault Case,Assault reported in Vellore,Anitha,20,Vikram,Vellore,2025-08-30,Closed,425489,Bank Records,High,Unsolved
+FIR167,Cyber Crime,Cyber Crime Case,Cyber Crime reported in Salem,Swetha,20,Surya,Salem,2025-09-14,Under Investigation,60653,Email Logs,Medium,Solved
+FIR168,Domestic Violence,Domestic Violence Case,Domestic Violence reported in Vellore,Deepak,48,Bharath,Vellore,2026-04-13,Closed,490354,Bank Records,High,Solved
+FIR169,Kidnapping,Kidnapping Case,Kidnapping reported in Vellore,Priya,54,Prakash,Vellore,2025-07-18,Open,405472,Fingerprint,High,Unsolved
+FIR170,Fraud,Fraud Case,Fraud reported in Salem,Kavin,47,Madhan,Salem,2025-09-04,Under Investigation,146955,Email Logs,Low,Solved
+FIR171,Financial Crime,Financial Crime Case,Financial Crime reported in Coimbatore,Arjun,21,Vikram,Coimbatore,2026-05-10,Under Investigation,395835,Bank Records,Medium,Solved
+FIR172,Fraud,Fraud Case,Fraud reported in Erode,Harini,29,Raj,Erode,2025-11-18,Closed,335567,Email Logs,Medium,Unsolved
+FIR173,Drug Crime,Drug Crime Case,Drug Crime reported in Erode,Rahul,20,Dinesh,Erode,2026-01-03,Closed,244760,Email Logs,Low,Solved
+FIR174,Drug Crime,Drug Crime Case,Drug Crime reported in Tiruppur,Ajay,56,Kumar,Tiruppur,2025-12-07,Open,246686,Witness,Medium,Solved
+FIR175,Burglary,Burglary Case,Burglary reported in Trichy,Suresh,44,Hari,Trichy,2025-09-17,Resolved,408978,Mobile Data,Medium,Unsolved
+FIR176,Burglary,Burglary Case,Burglary reported in Vellore,Anitha,24,Vikram,Vellore,2025-09-10,Under Investigation,101874,Email Logs,Medium,Unsolved
+FIR177,Drug Crime,Drug Crime Case,Drug Crime reported in Salem,Deepak,45,Aravind,Salem,2026-04-06,Resolved,158562,Bank Records,Low,Unsolved
+FIR178,Kidnapping,Kidnapping Case,Kidnapping reported in Madurai,Priya,41,Surya,Madurai,2025-09-09,Open,3682,Bank Records,Medium,Solved
+FIR179,Robbery,Robbery Case,Robbery reported in Erode,Rahul,28,Surya,Erode,2025-10-15,Open,123150,Fingerprint,High,Solved
+FIR180,Theft,Theft Case,Theft reported in Coimbatore,Suresh,32,Aravind,Coimbatore,2026-04-21,Resolved,206613,Bank Records,Low,Unsolved
+FIR181,Domestic Violence,Domestic Violence Case,Domestic Violence reported in Madurai,Suresh,33,Gokul,Madurai,2026-06-26,Closed,251759,Email Logs,Critical,Unsolved
+FIR182,Domestic Violence,Domestic Violence Case,Domestic Violence reported in Vellore,Rahul,22,Gokul,Vellore,2025-08-05,Closed,464314,Mobile Data,Medium,Unsolved
+FIR183,Theft,Theft Case,Theft reported in Coimbatore,Suresh,29,Vikram,Coimbatore,2025-12-18,Under Investigation,94926,Witness,Low,Solved
+FIR184,Fraud,Fraud Case,Fraud reported in Erode,Deepak,41,Gokul,Erode,2026-05-25,Resolved,496987,Fingerprint,High,Unsolved
+FIR185,Drug Crime,Drug Crime Case,Drug Crime reported in Trichy,Anitha,19,Ashok,Trichy,2025-11-20,Resolved,360109,Mobile Data,Low,Solved
+FIR186,Financial Crime,Financial Crime Case,Financial Crime reported in Coimbatore,Rahul,58,Senthil,Coimbatore,2025-07-01,Closed,66411,Email Logs,High,Solved
+FIR187,Assault,Assault Case,Assault reported in Tiruppur,Divya,21,Madhan,Tiruppur,2025-12-29,Resolved,179825,Witness,High,Solved
+FIR188,Theft,Theft Case,Theft reported in Salem,Ajay,58,Raj,Salem,2025-10-26,Under Investigation,75300,Witness,Critical,Solved
+FIR189,Domestic Violence,Domestic Violence Case,Domestic Violence reported in Erode,Harini,20,Sarath,Erode,2026-04-08,Open,460694,Witness,Low,Unsolved
+FIR190,Burglary,Burglary Case,Burglary reported in Erode,Vignesh,38,Raj,Erode,2026-02-11,Resolved,89314,Mobile Data,Critical,Unsolved
+FIR191,Domestic Violence,Domestic Violence Case,Domestic Violence reported in Tiruppur,Swetha,50,Gokul,Tiruppur,2026-06-14,Under Investigation,12867,CCTV,Critical,Solved
+FIR192,Theft,Theft Case,Theft reported in Vellore,Rahul,23,Raj,Vellore,2025-11-09,Resolved,219622,Witness,Low,Solved
+FIR193,Kidnapping,Kidnapping Case,Kidnapping reported in Coimbatore,Naveen,30,Vikram,Coimbatore,2026-05-19,Open,192576,CCTV,Medium,Unsolved
+FIR194,Domestic Violence,Domestic Violence Case,Domestic Violence reported in Vellore,Ajay,41,Bharath,Vellore,2025-12-18,Open,490662,Bank Records,Low,Solved
+FIR195,Fraud,Fraud Case,Fraud reported in Erode,Arjun,40,Madhan,Erode,2025-12-27,Closed,395342,CCTV,Medium,Unsolved
+FIR196,Fraud,Fraud Case,Fraud reported in Salem,Ramesh,60,Dinesh,Salem,2025-11-14,Closed,117479,Witness,Medium,Solved
+FIR197,Domestic Violence,Domestic Violence Case,Domestic Violence reported in Coimbatore,Anitha,50,Sarath,Coimbatore,2025-08-16,Resolved,113209,Mobile Data,Critical,Unsolved
+FIR198,Kidnapping,Kidnapping Case,Kidnapping reported in Vellore,Suresh,45,Gokul,Vellore,2025-07-03,Under Investigation,52271,Bank Records,High,Solved
+FIR199,Robbery,Robbery Case,Robbery reported in Vellore,Rahul,42,Prakash,Vellore,2025-07-29,Resolved,218068,Mobile Data,Critical,Solved
+FIR200,Robbery,Robbery Case,Robbery reported in Erode,Harini,55,Sarath,Erode,2026-04-01,Resolved,325958,Mobile Data,Low,Unsolved
+FIR201,Drug Crime,Drug Crime Case,Drug Crime reported in Tiruppur,Kavin,50,Vikram,Tiruppur,2026-01-11,Open,162893,Mobile Data,Medium,Solved
+FIR202,Fraud,Fraud Case,Fraud reported in Coimbatore,Anitha,36,Gokul,Coimbatore,2025-09-03,Closed,160882,Email Logs,High,Unsolved
+FIR203,Drug Crime,Drug Crime Case,Drug Crime reported in Tiruppur,Suresh,54,Hari,Tiruppur,2026-03-28,Open,124864,Mobile Data,Low,Unsolved
+FIR204,Domestic Violence,Domestic Violence Case,Domestic Violence reported in Trichy,Swetha,26,Ashok,Trichy,2026-02-12,Under Investigation,490043,Mobile Data,Critical,Solved
+FIR205,Financial Crime,Financial Crime Case,Financial Crime reported in Chennai,Arjun,21,Ashok,Chennai,2025-12-09,Resolved,260232,Fingerprint,Medium,Solved
+FIR206,Robbery,Robbery Case,Robbery reported in Salem,Swetha,23,Raj,Salem,2026-02-13,Under Investigation,324601,Bank Records,High,Unsolved
+FIR207,Fraud,Fraud Case,Fraud reported in Erode,Suresh,32,Manoj,Erode,2025-09-16,Open,201740,Witness,High,Solved
+FIR208,Fraud,Fraud Case,Fraud reported in Tiruppur,Vignesh,39,Surya,Tiruppur,2025-08-12,Closed,446987,Fingerprint,Critical,Unsolved
+FIR209,Fraud,Fraud Case,Fraud reported in Tiruppur,Ramesh,44,Ashok,Tiruppur,2025-10-11,Open,375988,Fingerprint,Low,Solved
+FIR210,Burglary,Burglary Case,Burglary reported in Vellore,Rahul,45,Sarath,Vellore,2025-12-05,Resolved,67901,Bank Records,Medium,Solved
+FIR211,Drug Crime,Drug Crime Case,Drug Crime reported in Vellore,Divya,59,Hari,Vellore,2026-05-08,Closed,46208,Fingerprint,High,Unsolved
+FIR212,Kidnapping,Kidnapping Case,Kidnapping reported in Chennai,Suresh,36,Vikram,Chennai,2025-12-01,Open,125222,Witness,Medium,Unsolved
+FIR213,Cyber Crime,Cyber Crime Case,Cyber Crime reported in Erode,Vignesh,28,Vikram,Erode,2026-03-27,Open,154573,Fingerprint,Critical,Unsolved
+FIR214,Financial Crime,Financial Crime Case,Financial Crime reported in Chennai,Rahul,49,Sarath,Chennai,2026-02-16,Open,134748,Fingerprint,Low,Solved
+FIR215,Theft,Theft Case,Theft reported in Chennai,Suresh,49,Kumar,Chennai,2026-04-08,Resolved,351944,Email Logs,Low,Solved
+FIR216,Financial Crime,Financial Crime Case,Financial Crime reported in Coimbatore,Meena,52,Kumar,Coimbatore,2026-04-04,Open,302058,Bank Records,Critical,Unsolved
+FIR217,Fraud,Fraud Case,Fraud reported in Erode,Ramesh,19,Aravind,Erode,2025-09-24,Closed,94852,CCTV,Critical,Solved
+FIR218,Kidnapping,Kidnapping Case,Kidnapping reported in Coimbatore,Harini,26,Gokul,Coimbatore,2026-06-23,Resolved,447488,Mobile Data,Low,Solved
+FIR219,Assault,Assault Case,Assault reported in Coimbatore,Arjun,42,Senthil,Coimbatore,2025-12-28,Open,337663,CCTV,High,Solved
+FIR220,Drug Crime,Drug Crime Case,Drug Crime reported in Tiruppur,Harini,46,Raj,Tiruppur,2026-02-26,Under Investigation,370914,Bank Records,Medium,Solved
+FIR221,Cyber Crime,Cyber Crime Case,Cyber Crime reported in Coimbatore,Priya,41,Prakash,Coimbatore,2025-08-28,Closed,319476,CCTV,Low,Solved
+FIR222,Cyber Crime,Cyber Crime Case,Cyber Crime reported in Salem,Divya,23,Dinesh,Salem,2026-02-23,Under Investigation,90201,Bank Records,High,Unsolved
+FIR223,Assault,Assault Case,Assault reported in Chennai,Swetha,31,Sarath,Chennai,2026-02-20,Open,76621,Email Logs,Low,Unsolved
+FIR224,Burglary,Burglary Case,Burglary reported in Tiruppur,Swetha,57,Gokul,Tiruppur,2026-06-18,Under Investigation,394385,CCTV,Medium,Unsolved
+FIR225,Domestic Violence,Domestic Violence Case,Domestic Violence reported in Vellore,Meena,51,Hari,Vellore,2026-02-02,Closed,470954,CCTV,Medium,Solved
+FIR226,Fraud,Fraud Case,Fraud reported in Erode,Divya,45,Aravind,Erode,2025-09-30,Resolved,359927,Mobile Data,Low,Solved
+FIR227,Drug Crime,Drug Crime Case,Drug Crime reported in Tiruppur,Swetha,33,Dinesh,Tiruppur,2025-11-27,Open,425006,Fingerprint,High,Unsolved
+FIR228,Fraud,Fraud Case,Fraud reported in Coimbatore,Kavin,51,Hari,Coimbatore,2026-05-24,Closed,147351,Witness,Low,Solved
+FIR229,Theft,Theft Case,Theft reported in Vellore,Naveen,21,Kumar,Vellore,2025-12-16,Closed,135328,Fingerprint,Medium,Solved
+FIR230,Kidnapping,Kidnapping Case,Kidnapping reported in Erode,Ramesh,50,Senthil,Erode,2025-09-05,Open,460996,CCTV,High,Unsolved
+FIR231,Financial Crime,Financial Crime Case,Financial Crime reported in Trichy,Divya,44,Dinesh,Trichy,2025-11-18,Closed,275506,Bank Records,Critical,Solved
+FIR232,Fraud,Fraud Case,Fraud reported in Vellore,Swetha,25,Gokul,Vellore,2026-04-23,Closed,216075,Bank Records,Low,Unsolved
+FIR233,Financial Crime,Financial Crime Case,Financial Crime reported in Chennai,Kavin,46,Ashok,Chennai,2026-06-22,Under Investigation,453791,Email Logs,Medium,Solved
+FIR234,Domestic Violence,Domestic Violence Case,Domestic Violence reported in Erode,Rahul,48,Hari,Erode,2026-05-07,Resolved,308070,Email Logs,High,Solved
+FIR235,Theft,Theft Case,Theft reported in Madurai,Kavin,35,Ashok,Madurai,2026-05-24,Under Investigation,176414,Fingerprint,High,Unsolved
+FIR236,Kidnapping,Kidnapping Case,Kidnapping reported in Coimbatore,Arjun,40,Sarath,Coimbatore,2026-02-09,Closed,156564,Fingerprint,Medium,Unsolved
+FIR237,Assault,Assault Case,Assault reported in Trichy,Meena,37,Vikram,Trichy,2026-04-17,Closed,260072,CCTV,High,Unsolved
+FIR238,Cyber Crime,Cyber Crime Case,Cyber Crime reported in Salem,Ajay,54,Gokul,Salem,2025-09-09,Under Investigation,193414,CCTV,Low,Unsolved
+FIR239,Fraud,Fraud Case,Fraud reported in Madurai,Ajay,23,Sarath,Madurai,2026-02-09,Resolved,136065,CCTV,Low,Unsolved
+FIR240,Assault,Assault Case,Assault reported in Coimbatore,Naveen,55,Prakash,Coimbatore,2025-11-23,Resolved,377995,Email Logs,Critical,Solved
+FIR241,Theft,Theft Case,Theft reported in Vellore,Ajay,25,Dinesh,Vellore,2025-07-17,Under Investigation,153881,Email Logs,High,Solved
+FIR242,Cyber Crime,Cyber Crime Case,Cyber Crime reported in Salem,Priya,23,Manoj,Salem,2026-04-14,Under Investigation,371594,Email Logs,Low,Unsolved
+FIR243,Kidnapping,Kidnapping Case,Kidnapping reported in Vellore,Deepak,42,Hari,Vellore,2026-06-20,Resolved,131799,Fingerprint,High,Solved
+FIR244,Drug Crime,Drug Crime Case,Drug Crime reported in Vellore,Divya,40,Manoj,Vellore,2026-03-14,Under Investigation,327627,Email Logs,Critical,Unsolved
+FIR245,Domestic Violence,Domestic Violence Case,Domestic Violence reported in Salem,Priya,27,Manoj,Salem,2026-03-08,Open,407668,Mobile Data,Medium,Solved
+FIR246,Cyber Crime,Cyber Crime Case,Cyber Crime reported in Tiruppur,Swetha,21,Dinesh,Tiruppur,2025-06-30,Open,39024,CCTV,Medium,Unsolved
+FIR247,Assault,Assault Case,Assault reported in Vellore,Arjun,50,Bharath,Vellore,2025-08-21,Closed,384643,Email Logs,Low,Unsolved
+FIR248,Drug Crime,Drug Crime Case,Drug Crime reported in Coimbatore,Arjun,34,Prakash,Coimbatore,2026-06-03,Resolved,256815,Email Logs,Critical,Unsolved
+FIR249,Drug Crime,Drug Crime Case,Drug Crime reported in Tiruppur,Priya,22,Vikram,Tiruppur,2025-09-30,Resolved,53325,Mobile Data,High,Solved
+FIR250,Assault,Assault Case,Assault reported in Erode,Rahul,36,Senthil,Erode,2026-01-28,Resolved,375528,Bank Records,Low,Unsolved
+FIR251,Theft,Theft Case,Theft reported in Tiruppur,Arjun,24,Hari,Tiruppur,2025-10-07,Under Investigation,253541,Fingerprint,Critical,Solved
+FIR252,Domestic Violence,Domestic Violence Case,Domestic Violence reported in Tiruppur,Rahul,39,Aravind,Tiruppur,2025-11-08,Under Investigation,97257,Witness,Medium,Solved
+FIR253,Cyber Crime,Cyber Crime Case,Cyber Crime reported in Trichy,Divya,44,Raj,Trichy,2026-04-05,Open,228747,Bank Records,Medium,Unsolved
+FIR254,Kidnapping,Kidnapping Case,Kidnapping reported in Coimbatore,Deepak,35,Dinesh,Coimbatore,2025-12-10,Resolved,281044,Fingerprint,Critical,Unsolved
+FIR255,Domestic Violence,Domestic Violence Case,Domestic Violence reported in Erode,Arjun,26,Surya,Erode,2025-07-23,Closed,401784,Bank Records,Medium,Unsolved
+FIR256,Burglary,Burglary Case,Burglary reported in Chennai,Deepak,33,Kumar,Chennai,2025-10-13,Under Investigation,228007,Email Logs,Low,Unsolved
+FIR257,Kidnapping,Kidnapping Case,Kidnapping reported in Tiruppur,Harini,43,Surya,Tiruppur,2025-10-31,Under Investigation,302363,Mobile Data,Low,Solved
+FIR258,Theft,Theft Case,Theft reported in Tiruppur,Divya,54,Aravind,Tiruppur,2026-03-22,Closed,423307,Fingerprint,Low,Unsolved
+FIR259,Assault,Assault Case,Assault reported in Erode,Anitha,48,Kumar,Erode,2026-02-25,Under Investigation,123621,Email Logs,Critical,Unsolved
+FIR260,Drug Crime,Drug Crime Case,Drug Crime reported in Erode,Deepak,58,Gokul,Erode,2026-03-10,Under Investigation,84948,Fingerprint,Medium,Solved
+FIR261,Burglary,Burglary Case,Burglary reported in Madurai,Harini,18,Bharath,Madurai,2025-09-13,Open,232593,Fingerprint,Critical,Unsolved
+FIR262,Cyber Crime,Cyber Crime Case,Cyber Crime reported in Salem,Ramesh,59,Ashok,Salem,2025-12-04,Under Investigation,352360,Bank Records,Medium,Unsolved
+FIR263,Financial Crime,Financial Crime Case,Financial Crime reported in Erode,Suresh,52,Dinesh,Erode,2025-07-25,Closed,263889,Mobile Data,Low,Unsolved
+FIR264,Burglary,Burglary Case,Burglary reported in Salem,Arjun,42,Raj,Salem,2026-06-13,Open,177845,Mobile Data,High,Unsolved
+FIR265,Fraud,Fraud Case,Fraud reported in Tiruppur,Arjun,56,Prakash,Tiruppur,2025-12-30,Under Investigation,474720,Email Logs,Critical,Solved
+FIR266,Fraud,Fraud Case,Fraud reported in Erode,Swetha,50,Raj,Erode,2025-08-30,Under Investigation,56978,CCTV,Low,Unsolved
+FIR267,Kidnapping,Kidnapping Case,Kidnapping reported in Vellore,Deepak,49,Gokul,Vellore,2025-10-05,Under Investigation,326015,Fingerprint,Low,Solved
+FIR268,Drug Crime,Drug Crime Case,Drug Crime reported in Madurai,Vignesh,26,Hari,Madurai,2026-05-03,Closed,414332,Witness,High,Unsolved
+FIR269,Robbery,Robbery Case,Robbery reported in Erode,Priya,58,Surya,Erode,2025-11-17,Resolved,432244,Mobile Data,Critical,Solved
+FIR270,Fraud,Fraud Case,Fraud reported in Coimbatore,Arjun,21,Raj,Coimbatore,2026-01-02,Open,225447,Witness,Low,Unsolved
+FIR271,Fraud,Fraud Case,Fraud reported in Tiruppur,Vignesh,25,Bharath,Tiruppur,2025-07-23,Closed,17008,Bank Records,Critical,Unsolved
+FIR272,Financial Crime,Financial Crime Case,Financial Crime reported in Chennai,Anitha,53,Senthil,Chennai,2025-11-08,Closed,90512,Mobile Data,Critical,Unsolved
+FIR273,Theft,Theft Case,Theft reported in Coimbatore,Ramesh,35,Hari,Coimbatore,2025-09-22,Under Investigation,405001,Bank Records,High,Solved
+FIR274,Drug Crime,Drug Crime Case,Drug Crime reported in Tiruppur,Ajay,24,Hari,Tiruppur,2025-11-10,Resolved,161254,Email Logs,Low,Unsolved
+FIR275,Cyber Crime,Cyber Crime Case,Cyber Crime reported in Chennai,Swetha,21,Prakash,Chennai,2026-01-19,Under Investigation,167353,CCTV,High,Unsolved
+FIR276,Theft,Theft Case,Theft reported in Vellore,Priya,47,Gokul,Vellore,2026-03-03,Open,41553,Email Logs,Low,Unsolved
+FIR277,Kidnapping,Kidnapping Case,Kidnapping reported in Chennai,Swetha,32,Aravind,Chennai,2025-11-12,Open,145154,Mobile Data,Low,Unsolved
+FIR278,Theft,Theft Case,Theft reported in Madurai,Meena,43,Gokul,Madurai,2026-01-04,Open,20806,Bank Records,Medium,Solved
+FIR279,Theft,Theft Case,Theft reported in Erode,Priya,22,Kumar,Erode,2026-04-28,Under Investigation,147194,Mobile Data,High,Solved
+FIR280,Theft,Theft Case,Theft reported in Coimbatore,Ramesh,27,Dinesh,Coimbatore,2025-11-11,Resolved,33895,Fingerprint,Critical,Unsolved
+FIR281,Robbery,Robbery Case,Robbery reported in Trichy,Vignesh,29,Aravind,Trichy,2026-01-26,Closed,286331,Mobile Data,Low,Solved
+FIR282,Theft,Theft Case,Theft reported in Trichy,Suresh,25,Surya,Trichy,2026-05-15,Closed,354332,Mobile Data,Low,Solved
+FIR283,Assault,Assault Case,Assault reported in Trichy,Anitha,49,Kumar,Trichy,2026-06-26,Resolved,147619,Mobile Data,High,Solved
+FIR284,Financial Crime,Financial Crime Case,Financial Crime reported in Erode,Ramesh,43,Hari,Erode,2026-04-22,Under Investigation,295195,Witness,Medium,Unsolved
+FIR285,Financial Crime,Financial Crime Case,Financial Crime reported in Coimbatore,Rahul,27,Senthil,Coimbatore,2025-11-21,Under Investigation,212514,Mobile Data,High,Solved
+FIR286,Domestic Violence,Domestic Violence Case,Domestic Violence reported in Salem,Swetha,48,Madhan,Salem,2025-12-28,Closed,178369,CCTV,Low,Unsolved
+FIR287,Assault,Assault Case,Assault reported in Coimbatore,Anitha,46,Raj,Coimbatore,2026-04-15,Resolved,83188,Witness,Low,Unsolved
+FIR288,Assault,Assault Case,Assault reported in Tiruppur,Ajay,21,Bharath,Tiruppur,2025-07-31,Open,400876,Email Logs,Critical,Unsolved
+FIR289,Financial Crime,Financial Crime Case,Financial Crime reported in Chennai,Meena,48,Madhan,Chennai,2026-06-01,Resolved,74397,Witness,High,Unsolved
+FIR290,Robbery,Robbery Case,Robbery reported in Chennai,Divya,46,Senthil,Chennai,2026-05-03,Open,64873,Fingerprint,High,Solved
+FIR291,Drug Crime,Drug Crime Case,Drug Crime reported in Salem,Naveen,56,Aravind,Salem,2025-10-24,Open,379444,Mobile Data,High,Solved
+FIR292,Fraud,Fraud Case,Fraud reported in Madurai,Ajay,30,Manoj,Madurai,2025-12-29,Closed,127050,Fingerprint,Medium,Unsolved
+FIR293,Theft,Theft Case,Theft reported in Madurai,Divya,57,Kumar,Madurai,2026-06-10,Under Investigation,104609,Bank Records,Medium,Unsolved
+FIR294,Drug Crime,Drug Crime Case,Drug Crime reported in Vellore,Arjun,44,Madhan,Vellore,2025-09-30,Under Investigation,6619,Email Logs,High,Solved
+FIR295,Theft,Theft Case,Theft reported in Trichy,Divya,51,Madhan,Trichy,2026-01-05,Under Investigation,228036,CCTV,High,Unsolved
+FIR296,Domestic Violence,Domestic Violence Case,Domestic Violence reported in Salem,Swetha,54,Manoj,Salem,2026-01-17,Resolved,382593,Mobile Data,Low,Unsolved
+FIR297,Theft,Theft Case,Theft reported in Chennai,Vignesh,35,Dinesh,Chennai,2025-07-14,Closed,135927,Mobile Data,Critical,Solved
+FIR298,Kidnapping,Kidnapping Case,Kidnapping reported in Vellore,Meena,44,Senthil,Vellore,2025-07-04,Open,242906,Email Logs,Low,Solved
+FIR299,Drug Crime,Drug Crime Case,Drug Crime reported in Vellore,Divya,23,Aravind,Vellore,2025-12-26,Under Investigation,433921,Fingerprint,High,Unsolved
+FIR300,Kidnapping,Kidnapping Case,Kidnapping reported in Tiruppur,Kavin,29,Surya,Tiruppur,2025-08-29,Under Investigation,70293,Fingerprint,Low,Unsolved
+FIR301,Financial Crime,Financial Crime Case,Financial Crime reported in Tiruppur,Suresh,26,Manoj,Tiruppur,2025-08-27,Under Investigation,107063,Fingerprint,Medium,Unsolved
+FIR302,Fraud,Fraud Case,Fraud reported in Madurai,Suresh,46,Aravind,Madurai,2026-05-20,Closed,95858,Bank Records,Medium,Solved
+FIR303,Cyber Crime,Cyber Crime Case,Cyber Crime reported in Vellore,Ajay,29,Hari,Vellore,2026-02-20,Under Investigation,492834,Bank Records,Low,Unsolved
+FIR304,Financial Crime,Financial Crime Case,Financial Crime reported in Trichy,Swetha,30,Ashok,Trichy,2025-10-29,Resolved,35993,Witness,Low,Unsolved
+FIR305,Kidnapping,Kidnapping Case,Kidnapping reported in Vellore,Swetha,51,Madhan,Vellore,2026-04-05,Resolved,444977,Email Logs,Medium,Unsolved
+FIR306,Drug Crime,Drug Crime Case,Drug Crime reported in Coimbatore,Meena,26,Prakash,Coimbatore,2026-05-14,Open,160451,Mobile Data,Critical,Unsolved
+FIR307,Theft,Theft Case,Theft reported in Salem,Priya,47,Manoj,Salem,2026-01-03,Closed,15405,Bank Records,Medium,Unsolved
+FIR308,Financial Crime,Financial Crime Case,Financial Crime reported in Vellore,Swetha,56,Surya,Vellore,2025-12-22,Closed,43371,Mobile Data,Low,Unsolved
+FIR309,Domestic Violence,Domestic Violence Case,Domestic Violence reported in Chennai,Divya,42,Prakash,Chennai,2026-02-16,Closed,402009,Email Logs,Low,Unsolved
+FIR310,Assault,Assault Case,Assault reported in Coimbatore,Deepak,44,Kumar,Coimbatore,2025-09-10,Closed,129970,Bank Records,High,Unsolved
+FIR311,Financial Crime,Financial Crime Case,Financial Crime reported in Trichy,Deepak,47,Sarath,Trichy,2025-11-28,Under Investigation,356903,Mobile Data,Medium,Unsolved
+FIR312,Fraud,Fraud Case,Fraud reported in Chennai,Vignesh,60,Manoj,Chennai,2026-01-22,Closed,471926,Mobile Data,Critical,Unsolved
+FIR313,Fraud,Fraud Case,Fraud reported in Salem,Swetha,39,Ashok,Salem,2026-06-03,Under Investigation,492021,Email Logs,Low,Unsolved
+FIR314,Cyber Crime,Cyber Crime Case,Cyber Crime reported in Trichy,Rahul,56,Gokul,Trichy,2026-05-13,Closed,421818,CCTV,Low,Unsolved
+FIR315,Financial Crime,Financial Crime Case,Financial Crime reported in Vellore,Ramesh,28,Ashok,Vellore,2025-09-05,Open,10079,Email Logs,Low,Solved
+FIR316,Domestic Violence,Domestic Violence Case,Domestic Violence reported in Erode,Ajay,47,Prakash,Erode,2026-05-30,Open,285884,Witness,Low,Solved
+FIR317,Domestic Violence,Domestic Violence Case,Domestic Violence reported in Trichy,Swetha,47,Senthil,Trichy,2026-04-16,Closed,349674,Mobile Data,Critical,Solved
+FIR318,Burglary,Burglary Case,Burglary reported in Tiruppur,Divya,50,Raj,Tiruppur,2025-09-05,Closed,321320,Witness,Low,Solved
+FIR319,Fraud,Fraud Case,Fraud reported in Erode,Harini,58,Gokul,Erode,2026-06-06,Closed,408015,Mobile Data,Critical,Unsolved
+FIR320,Assault,Assault Case,Assault reported in Erode,Priya,39,Madhan,Erode,2026-02-28,Closed,67611,Fingerprint,High,Solved
+FIR321,Assault,Assault Case,Assault reported in Coimbatore,Ramesh,53,Vikram,Coimbatore,2026-01-29,Resolved,329566,Fingerprint,Critical,Solved
+FIR322,Fraud,Fraud Case,Fraud reported in Erode,Priya,48,Sarath,Erode,2025-06-30,Closed,6947,Mobile Data,High,Unsolved
+FIR323,Theft,Theft Case,Theft reported in Salem,Ajay,33,Sarath,Salem,2025-08-04,Under Investigation,258641,CCTV,Medium,Unsolved
+FIR324,Domestic Violence,Domestic Violence Case,Domestic Violence reported in Erode,Ramesh,39,Prakash,Erode,2026-05-02,Resolved,84962,Bank Records,Medium,Unsolved
+FIR325,Robbery,Robbery Case,Robbery reported in Tiruppur,Rahul,24,Dinesh,Tiruppur,2025-11-13,Closed,250324,Email Logs,Critical,Solved
+FIR326,Assault,Assault Case,Assault reported in Vellore,Deepak,57,Raj,Vellore,2025-10-11,Open,390658,Email Logs,Medium,Solved
+FIR327,Theft,Theft Case,Theft reported in Erode,Priya,29,Sarath,Erode,2026-02-09,Closed,64461,Fingerprint,Low,Unsolved
+FIR328,Fraud,Fraud Case,Fraud reported in Trichy,Vignesh,32,Vikram,Trichy,2025-07-14,Resolved,456049,Fingerprint,Medium,Solved
+FIR329,Assault,Assault Case,Assault reported in Tiruppur,Ajay,21,Vikram,Tiruppur,2026-01-04,Open,64899,Fingerprint,High,Solved
+FIR330,Assault,Assault Case,Assault reported in Chennai,Suresh,27,Manoj,Chennai,2026-06-15,Under Investigation,307655,Fingerprint,Low,Solved
+FIR331,Assault,Assault Case,Assault reported in Coimbatore,Meena,25,Manoj,Coimbatore,2025-11-09,Resolved,173468,Fingerprint,High,Solved
+FIR332,Robbery,Robbery Case,Robbery reported in Coimbatore,Naveen,52,Hari,Coimbatore,2026-01-24,Closed,354223,CCTV,Low,Unsolved
+FIR333,Theft,Theft Case,Theft reported in Salem,Meena,22,Senthil,Salem,2025-09-08,Closed,7965,Witness,Medium,Unsolved
+FIR334,Financial Crime,Financial Crime Case,Financial Crime reported in Chennai,Arjun,25,Madhan,Chennai,2025-12-06,Resolved,293655,Email Logs,Low,Solved
+FIR335,Cyber Crime,Cyber Crime Case,Cyber Crime reported in Trichy,Divya,42,Manoj,Trichy,2025-10-16,Open,21214,CCTV,Low,Solved
+FIR336,Kidnapping,Kidnapping Case,Kidnapping reported in Trichy,Kavin,26,Madhan,Trichy,2026-01-16,Open,66099,Email Logs,Critical,Solved
+FIR337,Theft,Theft Case,Theft reported in Erode,Suresh,36,Manoj,Erode,2025-07-25,Closed,5729,Witness,High,Unsolved
+FIR338,Assault,Assault Case,Assault reported in Madurai,Harini,19,Madhan,Madurai,2026-06-08,Under Investigation,149549,Mobile Data,Critical,Solved
+FIR339,Assault,Assault Case,Assault reported in Tiruppur,Harini,22,Dinesh,Tiruppur,2026-02-19,Under Investigation,306782,Mobile Data,Medium,Solved
+FIR340,Theft,Theft Case,Theft reported in Erode,Meena,44,Prakash,Erode,2026-04-24,Open,37142,Mobile Data,Critical,Solved
+FIR341,Burglary,Burglary Case,Burglary reported in Chennai,Ajay,50,Dinesh,Chennai,2026-04-19,Under Investigation,316151,Fingerprint,High,Solved
+FIR342,Financial Crime,Financial Crime Case,Financial Crime reported in Coimbatore,Swetha,57,Raj,Coimbatore,2025-12-26,Closed,169303,Witness,Critical,Solved
+FIR343,Cyber Crime,Cyber Crime Case,Cyber Crime reported in Chennai,Kavin,29,Ashok,Chennai,2025-08-08,Closed,109856,Bank Records,Medium,Unsolved
+FIR344,Assault,Assault Case,Assault reported in Coimbatore,Suresh,27,Kumar,Coimbatore,2025-10-25,Open,444918,Bank Records,Medium,Solved
+FIR345,Fraud,Fraud Case,Fraud reported in Salem,Swetha,46,Gokul,Salem,2026-02-19,Open,3498,Witness,Critical,Unsolved
+FIR346,Robbery,Robbery Case,Robbery reported in Chennai,Swetha,27,Surya,Chennai,2026-05-11,Resolved,197934,Fingerprint,Critical,Solved
+FIR347,Drug Crime,Drug Crime Case,Drug Crime reported in Coimbatore,Suresh,48,Raj,Coimbatore,2026-04-16,Under Investigation,468523,Bank Records,Medium,Solved
+FIR348,Theft,Theft Case,Theft reported in Vellore,Deepak,55,Surya,Vellore,2025-12-23,Open,199110,Email Logs,Low,Solved
+FIR349,Theft,Theft Case,Theft reported in Tiruppur,Harini,31,Bharath,Tiruppur,2025-11-21,Open,464039,Email Logs,Medium,Unsolved
+FIR350,Financial Crime,Financial Crime Case,Financial Crime reported in Tiruppur,Harini,29,Ashok,Tiruppur,2026-06-24,Under Investigation,228734,Bank Records,Critical,Solved
+FIR351,Drug Crime,Drug Crime Case,Drug Crime reported in Tiruppur,Suresh,49,Prakash,Tiruppur,2025-06-29,Resolved,151773,Mobile Data,High,Solved
+FIR352,Kidnapping,Kidnapping Case,Kidnapping reported in Erode,Meena,49,Aravind,Erode,2026-01-31,Closed,369722,Fingerprint,Medium,Solved
+FIR353,Assault,Assault Case,Assault reported in Coimbatore,Naveen,57,Manoj,Coimbatore,2025-07-03,Open,136592,Email Logs,High,Unsolved
+FIR354,Assault,Assault Case,Assault reported in Tiruppur,Priya,29,Dinesh,Tiruppur,2026-06-22,Under Investigation,289844,Email Logs,Medium,Unsolved
+FIR355,Kidnapping,Kidnapping Case,Kidnapping reported in Coimbatore,Arjun,27,Prakash,Coimbatore,2026-03-11,Resolved,296606,Mobile Data,Low,Solved
+FIR356,Theft,Theft Case,Theft reported in Chennai,Priya,21,Senthil,Chennai,2025-10-16,Resolved,298687,Mobile Data,Low,Solved
+FIR357,Robbery,Robbery Case,Robbery reported in Madurai,Vignesh,47,Kumar,Madurai,2026-03-26,Closed,192916,Fingerprint,High,Unsolved
+FIR358,Financial Crime,Financial Crime Case,Financial Crime reported in Erode,Harini,42,Hari,Erode,2025-12-14,Open,150888,Email Logs,Low,Unsolved
+FIR359,Cyber Crime,Cyber Crime Case,Cyber Crime reported in Trichy,Rahul,42,Manoj,Trichy,2026-01-12,Closed,240554,Email Logs,Critical,Unsolved
+FIR360,Fraud,Fraud Case,Fraud reported in Erode,Deepak,20,Ashok,Erode,2025-07-14,Resolved,231643,CCTV,Low,Unsolved
+FIR361,Cyber Crime,Cyber Crime Case,Cyber Crime reported in Madurai,Swetha,30,Senthil,Madurai,2026-02-02,Under Investigation,206816,Bank Records,Low,Unsolved
+FIR362,Robbery,Robbery Case,Robbery reported in Coimbatore,Anitha,59,Surya,Coimbatore,2026-02-02,Open,268162,Bank Records,Low,Solved
+FIR363,Kidnapping,Kidnapping Case,Kidnapping reported in Vellore,Divya,53,Ashok,Vellore,2026-02-16,Under Investigation,309069,Witness,Low,Unsolved
+FIR364,Burglary,Burglary Case,Burglary reported in Vellore,Priya,45,Gokul,Vellore,2026-01-31,Closed,230831,Witness,Low,Unsolved
+FIR365,Assault,Assault Case,Assault reported in Madurai,Swetha,50,Aravind,Madurai,2025-07-20,Open,21307,Email Logs,Medium,Solved
+FIR366,Kidnapping,Kidnapping Case,Kidnapping reported in Madurai,Vignesh,27,Bharath,Madurai,2025-07-12,Under Investigation,465259,Email Logs,High,Unsolved
+FIR367,Cyber Crime,Cyber Crime Case,Cyber Crime reported in Madurai,Vignesh,33,Manoj,Madurai,2026-04-01,Closed,274098,CCTV,Critical,Solved
+FIR368,Cyber Crime,Cyber Crime Case,Cyber Crime reported in Vellore,Naveen,52,Raj,Vellore,2025-10-22,Resolved,64268,Witness,Critical,Unsolved
+FIR369,Assault,Assault Case,Assault reported in Tiruppur,Kavin,35,Kumar,Tiruppur,2026-03-05,Closed,471419,CCTV,Medium,Unsolved
+FIR370,Fraud,Fraud Case,Fraud reported in Vellore,Priya,58,Sarath,Vellore,2026-04-27,Under Investigation,336059,Witness,Medium,Unsolved
+FIR371,Fraud,Fraud Case,Fraud reported in Erode,Arjun,29,Gokul,Erode,2026-01-04,Under Investigation,105271,Bank Records,Low,Solved
+FIR372,Burglary,Burglary Case,Burglary reported in Tiruppur,Ramesh,28,Hari,Tiruppur,2025-11-17,Closed,298892,Mobile Data,High,Unsolved
+FIR373,Robbery,Robbery Case,Robbery reported in Tiruppur,Vignesh,48,Senthil,Tiruppur,2026-03-20,Closed,184144,CCTV,High,Solved
+FIR374,Cyber Crime,Cyber Crime Case,Cyber Crime reported in Madurai,Ajay,25,Prakash,Madurai,2025-11-01,Resolved,253905,Fingerprint,Low,Unsolved
+FIR375,Assault,Assault Case,Assault reported in Tiruppur,Harini,32,Prakash,Tiruppur,2026-03-29,Closed,445373,Mobile Data,High,Unsolved
+FIR376,Drug Crime,Drug Crime Case,Drug Crime reported in Erode,Naveen,44,Ashok,Erode,2025-08-27,Under Investigation,57813,Witness,High,Solved
+FIR377,Robbery,Robbery Case,Robbery reported in Salem,Ramesh,41,Manoj,Salem,2025-11-29,Open,374148,Mobile Data,High,Solved
+FIR378,Domestic Violence,Domestic Violence Case,Domestic Violence reported in Erode,Priya,46,Hari,Erode,2025-07-05,Closed,140350,Email Logs,Low,Solved
+FIR379,Cyber Crime,Cyber Crime Case,Cyber Crime reported in Coimbatore,Deepak,39,Hari,Coimbatore,2026-04-09,Open,296883,Fingerprint,Medium,Unsolved
+FIR380,Fraud,Fraud Case,Fraud reported in Salem,Kavin,39,Aravind,Salem,2025-12-03,Open,480404,Bank Records,High,Unsolved
+FIR381,Theft,Theft Case,Theft reported in Salem,Ajay,52,Ashok,Salem,2026-01-19,Resolved,408641,CCTV,Low,Unsolved
+FIR382,Financial Crime,Financial Crime Case,Financial Crime reported in Vellore,Deepak,34,Kumar,Vellore,2026-06-18,Closed,50316,Bank Records,High,Solved
+FIR383,Burglary,Burglary Case,Burglary reported in Chennai,Naveen,29,Kumar,Chennai,2026-03-13,Under Investigation,442620,Witness,Critical,Unsolved
+FIR384,Domestic Violence,Domestic Violence Case,Domestic Violence reported in Chennai,Suresh,42,Raj,Chennai,2025-07-01,Open,349977,CCTV,Low,Unsolved
+FIR385,Assault,Assault Case,Assault reported in Chennai,Meena,31,Sarath,Chennai,2026-06-21,Closed,395385,Fingerprint,High,Unsolved
+FIR386,Theft,Theft Case,Theft reported in Madurai,Arjun,45,Prakash,Madurai,2025-09-09,Open,332384,CCTV,Low,Solved
+FIR387,Burglary,Burglary Case,Burglary reported in Coimbatore,Swetha,22,Prakash,Coimbatore,2026-04-18,Open,489808,Bank Records,High,Unsolved
+FIR388,Fraud,Fraud Case,Fraud reported in Erode,Suresh,48,Prakash,Erode,2026-02-25,Under Investigation,101030,Bank Records,Low,Solved
+FIR389,Cyber Crime,Cyber Crime Case,Cyber Crime reported in Salem,Meena,42,Bharath,Salem,2026-04-24,Under Investigation,304343,Email Logs,Low,Solved
+FIR390,Kidnapping,Kidnapping Case,Kidnapping reported in Coimbatore,Suresh,32,Senthil,Coimbatore,2025-10-15,Resolved,61166,Fingerprint,Medium,Solved
+FIR391,Financial Crime,Financial Crime Case,Financial Crime reported in Tiruppur,Arjun,49,Manoj,Tiruppur,2026-03-12,Closed,238875,Mobile Data,Low,Solved
+FIR392,Burglary,Burglary Case,Burglary reported in Tiruppur,Deepak,60,Dinesh,Tiruppur,2026-02-08,Resolved,18993,Fingerprint,Critical,Solved
+FIR393,Fraud,Fraud Case,Fraud reported in Madurai,Swetha,29,Surya,Madurai,2025-10-29,Under Investigation,7175,Bank Records,Critical,Unsolved
+FIR394,Financial Crime,Financial Crime Case,Financial Crime reported in Coimbatore,Anitha,53,Sarath,Coimbatore,2025-09-25,Under Investigation,472368,Witness,High,Unsolved
+FIR395,Drug Crime,Drug Crime Case,Drug Crime reported in Chennai,Arjun,46,Vikram,Chennai,2026-03-20,Under Investigation,72385,Bank Records,Critical,Solved
+FIR396,Financial Crime,Financial Crime Case,Financial Crime reported in Tiruppur,Vignesh,39,Aravind,Tiruppur,2025-07-01,Open,90250,Email Logs,Medium,Solved
+FIR397,Cyber Crime,Cyber Crime Case,Cyber Crime reported in Chennai,Ramesh,36,Kumar,Chennai,2025-07-06,Resolved,139299,Fingerprint,Medium,Solved
+FIR398,Domestic Violence,Domestic Violence Case,Domestic Violence reported in Chennai,Priya,22,Prakash,Chennai,2026-04-22,Resolved,449147,Mobile Data,Critical,Unsolved
+FIR399,Robbery,Robbery Case,Robbery reported in Trichy,Ajay,42,Gokul,Trichy,2026-06-09,Resolved,198028,Fingerprint,High,Unsolved
+FIR400,Domestic Violence,Domestic Violence Case,Domestic Violence reported in Trichy,Divya,24,Bharath,Trichy,2025-10-29,Closed,116068,Email Logs,Critical,Unsolved
+FIR401,Burglary,Burglary Case,Burglary reported in Madurai,Swetha,29,Aravind,Madurai,2026-01-16,Resolved,89177,CCTV,Critical,Unsolved
+FIR402,Drug Crime,Drug Crime Case,Drug Crime reported in Chennai,Priya,20,Aravind,Chennai,2025-08-29,Open,232553,Witness,Medium,Solved
+FIR403,Domestic Violence,Domestic Violence Case,Domestic Violence reported in Madurai,Ramesh,29,Prakash,Madurai,2026-01-20,Under Investigation,383365,Mobile Data,Medium,Unsolved
+FIR404,Robbery,Robbery Case,Robbery reported in Salem,Swetha,53,Bharath,Salem,2026-06-25,Open,47082,CCTV,Low,Unsolved
+FIR405,Burglary,Burglary Case,Burglary reported in Coimbatore,Harini,49,Manoj,Coimbatore,2026-04-30,Resolved,202556,Email Logs,Low,Unsolved
+FIR406,Drug Crime,Drug Crime Case,Drug Crime reported in Salem,Rahul,35,Manoj,Salem,2026-01-17,Open,270294,Fingerprint,High,Solved
+FIR407,Drug Crime,Drug Crime Case,Drug Crime reported in Chennai,Naveen,48,Manoj,Chennai,2026-01-28,Open,18797,Witness,Low,Unsolved
+FIR408,Fraud,Fraud Case,Fraud reported in Tiruppur,Harini,28,Raj,Tiruppur,2025-11-28,Closed,237447,Bank Records,Low,Solved
+FIR409,Cyber Crime,Cyber Crime Case,Cyber Crime reported in Vellore,Divya,29,Vikram,Vellore,2026-06-13,Under Investigation,455130,Fingerprint,Low,Solved
+FIR410,Fraud,Fraud Case,Fraud reported in Erode,Harini,40,Ashok,Erode,2025-11-20,Closed,86504,Fingerprint,Low,Unsolved
+FIR411,Domestic Violence,Domestic Violence Case,Domestic Violence reported in Madurai,Suresh,38,Bharath,Madurai,2025-07-10,Closed,22756,CCTV,Medium,Solved
+FIR412,Theft,Theft Case,Theft reported in Coimbatore,Divya,42,Prakash,Coimbatore,2025-09-24,Open,407005,Bank Records,Medium,Solved
+FIR413,Assault,Assault Case,Assault reported in Trichy,Anitha,31,Vikram,Trichy,2025-07-11,Closed,269051,Bank Records,High,Solved
+FIR414,Financial Crime,Financial Crime Case,Financial Crime reported in Madurai,Ajay,37,Raj,Madurai,2025-07-05,Resolved,302370,Email Logs,Low,Unsolved
+FIR415,Robbery,Robbery Case,Robbery reported in Vellore,Anitha,53,Madhan,Vellore,2026-05-09,Open,288162,Mobile Data,Critical,Unsolved
+FIR416,Kidnapping,Kidnapping Case,Kidnapping reported in Vellore,Anitha,28,Aravind,Vellore,2025-08-11,Resolved,173922,Witness,High,Solved
+FIR417,Robbery,Robbery Case,Robbery reported in Madurai,Kavin,32,Kumar,Madurai,2026-03-17,Open,24627,Email Logs,Critical,Solved
+FIR418,Kidnapping,Kidnapping Case,Kidnapping reported in Vellore,Deepak,23,Gokul,Vellore,2025-09-12,Resolved,480282,CCTV,Low,Unsolved
+FIR419,Burglary,Burglary Case,Burglary reported in Salem,Arjun,34,Sarath,Salem,2025-11-28,Resolved,164638,Email Logs,Critical,Unsolved
+FIR420,Theft,Theft Case,Theft reported in Tiruppur,Anitha,56,Prakash,Tiruppur,2025-08-27,Resolved,168058,Email Logs,Critical,Unsolved
+FIR421,Drug Crime,Drug Crime Case,Drug Crime reported in Trichy,Anitha,38,Senthil,Trichy,2026-02-05,Under Investigation,170447,Fingerprint,Critical,Unsolved
+FIR422,Theft,Theft Case,Theft reported in Coimbatore,Arjun,46,Madhan,Coimbatore,2025-12-10,Resolved,406709,Witness,High,Solved
+FIR423,Theft,Theft Case,Theft reported in Madurai,Vignesh,48,Vikram,Madurai,2025-11-18,Under Investigation,266294,Email Logs,Critical,Unsolved
+FIR424,Drug Crime,Drug Crime Case,Drug Crime reported in Salem,Ramesh,53,Sarath,Salem,2026-04-12,Resolved,397573,CCTV,High,Unsolved
+FIR425,Cyber Crime,Cyber Crime Case,Cyber Crime reported in Chennai,Ajay,30,Madhan,Chennai,2026-02-17,Open,371579,Witness,Medium,Unsolved
+FIR426,Theft,Theft Case,Theft reported in Tiruppur,Anitha,34,Madhan,Tiruppur,2025-11-22,Under Investigation,169580,CCTV,Medium,Solved
+FIR427,Assault,Assault Case,Assault reported in Trichy,Swetha,42,Sarath,Trichy,2025-11-17,Under Investigation,34385,CCTV,Low,Unsolved
+FIR428,Robbery,Robbery Case,Robbery reported in Trichy,Priya,30,Kumar,Trichy,2026-01-11,Resolved,484268,Email Logs,Medium,Solved
+FIR429,Assault,Assault Case,Assault reported in Salem,Priya,43,Bharath,Salem,2025-11-23,Under Investigation,438111,CCTV,Critical,Solved
+FIR430,Burglary,Burglary Case,Burglary reported in Erode,Anitha,47,Kumar,Erode,2026-06-23,Closed,352120,Witness,Medium,Solved
+FIR431,Theft,Theft Case,Theft reported in Madurai,Meena,39,Senthil,Madurai,2025-09-20,Under Investigation,38909,CCTV,Low,Solved
+FIR432,Financial Crime,Financial Crime Case,Financial Crime reported in Salem,Swetha,32,Prakash,Salem,2025-07-22,Closed,59551,Mobile Data,Medium,Solved
+FIR433,Fraud,Fraud Case,Fraud reported in Erode,Harini,53,Vikram,Erode,2026-03-04,Resolved,98399,Fingerprint,High,Solved
+FIR434,Financial Crime,Financial Crime Case,Financial Crime reported in Tiruppur,Ajay,41,Vikram,Tiruppur,2026-03-25,Resolved,99623,CCTV,Medium,Solved
+FIR435,Domestic Violence,Domestic Violence Case,Domestic Violence reported in Chennai,Ramesh,42,Sarath,Chennai,2025-10-30,Under Investigation,149951,Witness,High,Unsolved
+FIR436,Drug Crime,Drug Crime Case,Drug Crime reported in Coimbatore,Arjun,56,Gokul,Coimbatore,2026-06-03,Closed,125509,Email Logs,Low,Unsolved
+FIR437,Domestic Violence,Domestic Violence Case,Domestic Violence reported in Trichy,Harini,31,Vikram,Trichy,2026-05-18,Resolved,166611,Bank Records,Medium,Solved
+FIR438,Burglary,Burglary Case,Burglary reported in Vellore,Rahul,45,Aravind,Vellore,2026-04-19,Under Investigation,55382,Bank Records,Medium,Unsolved
+FIR439,Assault,Assault Case,Assault reported in Chennai,Meena,43,Ashok,Chennai,2026-04-18,Resolved,344500,CCTV,High,Solved
+FIR440,Robbery,Robbery Case,Robbery reported in Vellore,Ramesh,56,Ashok,Vellore,2026-06-09,Open,423107,Email Logs,Critical,Solved
+FIR441,Drug Crime,Drug Crime Case,Drug Crime reported in Trichy,Ajay,50,Ashok,Trichy,2026-03-21,Resolved,493730,Bank Records,Medium,Solved
+FIR442,Domestic Violence,Domestic Violence Case,Domestic Violence reported in Chennai,Vignesh,18,Ashok,Chennai,2026-02-27,Closed,432562,Fingerprint,Critical,Solved
+FIR443,Fraud,Fraud Case,Fraud reported in Madurai,Naveen,23,Gokul,Madurai,2025-07-04,Under Investigation,433567,Witness,Medium,Solved
+FIR444,Theft,Theft Case,Theft reported in Madurai,Suresh,48,Manoj,Madurai,2025-08-30,Under Investigation,30762,Mobile Data,Critical,Solved
+FIR445,Robbery,Robbery Case,Robbery reported in Tiruppur,Meena,27,Ashok,Tiruppur,2025-09-20,Closed,479724,Bank Records,High,Unsolved
+FIR446,Burglary,Burglary Case,Burglary reported in Salem,Anitha,34,Hari,Salem,2025-06-29,Under Investigation,312316,Email Logs,Low,Solved
+FIR447,Robbery,Robbery Case,Robbery reported in Madurai,Naveen,42,Kumar,Madurai,2026-02-07,Open,415805,Bank Records,Critical,Solved
+FIR448,Fraud,Fraud Case,Fraud reported in Salem,Harini,40,Raj,Salem,2026-06-11,Under Investigation,1342,Mobile Data,Critical,Unsolved
+FIR449,Assault,Assault Case,Assault reported in Madurai,Arjun,33,Ashok,Madurai,2026-05-17,Open,270317,CCTV,High,Unsolved
+FIR450,Assault,Assault Case,Assault reported in Chennai,Rahul,48,Bharath,Chennai,2025-07-03,Under Investigation,330649,Email Logs,Medium,Unsolved
+FIR451,Domestic Violence,Domestic Violence Case,Domestic Violence reported in Salem,Priya,18,Dinesh,Salem,2026-02-10,Closed,198258,CCTV,Critical,Solved
+FIR452,Fraud,Fraud Case,Fraud reported in Madurai,Arjun,28,Sarath,Madurai,2025-09-13,Open,294307,Fingerprint,Medium,Solved
+FIR453,Robbery,Robbery Case,Robbery reported in Erode,Ramesh,59,Vikram,Erode,2026-06-05,Closed,246175,CCTV,High,Solved
+FIR454,Domestic Violence,Domestic Violence Case,Domestic Violence reported in Erode,Swetha,40,Surya,Erode,2026-03-08,Closed,498287,Fingerprint,Medium,Unsolved
+FIR455,Assault,Assault Case,Assault reported in Salem,Swetha,18,Dinesh,Salem,2025-07-05,Resolved,495011,Witness,Critical,Unsolved
+FIR456,Cyber Crime,Cyber Crime Case,Cyber Crime reported in Vellore,Kavin,46,Kumar,Vellore,2026-03-04,Resolved,174661,CCTV,High,Unsolved
+FIR457,Drug Crime,Drug Crime Case,Drug Crime reported in Salem,Divya,52,Madhan,Salem,2026-03-04,Closed,160318,CCTV,High,Solved
+FIR458,Assault,Assault Case,Assault reported in Trichy,Ramesh,25,Prakash,Trichy,2025-08-22,Resolved,441701,Bank Records,High,Solved
+FIR459,Robbery,Robbery Case,Robbery reported in Madurai,Naveen,59,Madhan,Madurai,2026-01-26,Under Investigation,135358,CCTV,Medium,Unsolved
+FIR460,Domestic Violence,Domestic Violence Case,Domestic Violence reported in Trichy,Priya,28,Dinesh,Trichy,2025-12-02,Resolved,348316,Email Logs,Critical,Solved
+FIR461,Burglary,Burglary Case,Burglary reported in Salem,Swetha,29,Sarath,Salem,2025-09-13,Open,71257,CCTV,Critical,Solved
+FIR462,Financial Crime,Financial Crime Case,Financial Crime reported in Madurai,Harini,50,Aravind,Madurai,2026-02-12,Open,350447,CCTV,Low,Solved
+FIR463,Robbery,Robbery Case,Robbery reported in Vellore,Swetha,28,Vikram,Vellore,2025-10-14,Resolved,51097,CCTV,Medium,Unsolved
+FIR464,Robbery,Robbery Case,Robbery reported in Madurai,Deepak,20,Madhan,Madurai,2025-08-13,Closed,143100,Email Logs,Low,Solved
+FIR465,Assault,Assault Case,Assault reported in Vellore,Priya,21,Dinesh,Vellore,2025-10-20,Resolved,351851,CCTV,High,Unsolved
+FIR466,Theft,Theft Case,Theft reported in Vellore,Rahul,40,Aravind,Vellore,2025-09-19,Closed,458104,Email Logs,Medium,Unsolved
+FIR467,Financial Crime,Financial Crime Case,Financial Crime reported in Coimbatore,Arjun,27,Vikram,Coimbatore,2025-07-01,Resolved,64430,CCTV,Critical,Solved
+FIR468,Kidnapping,Kidnapping Case,Kidnapping reported in Chennai,Naveen,41,Prakash,Chennai,2025-10-20,Closed,424170,CCTV,Critical,Solved
+FIR469,Domestic Violence,Domestic Violence Case,Domestic Violence reported in Salem,Meena,26,Hari,Salem,2026-04-24,Under Investigation,454207,CCTV,High,Solved
+FIR470,Assault,Assault Case,Assault reported in Chennai,Vignesh,30,Vikram,Chennai,2026-01-07,Under Investigation,260074,Email Logs,Low,Solved
+FIR471,Financial Crime,Financial Crime Case,Financial Crime reported in Chennai,Kavin,55,Kumar,Chennai,2025-09-18,Resolved,81181,Witness,High,Solved
+FIR472,Assault,Assault Case,Assault reported in Vellore,Suresh,52,Sarath,Vellore,2025-11-29,Open,417028,Email Logs,High,Unsolved
+FIR473,Kidnapping,Kidnapping Case,Kidnapping reported in Chennai,Meena,52,Ashok,Chennai,2026-03-16,Closed,394010,Bank Records,High,Unsolved
+FIR474,Burglary,Burglary Case,Burglary reported in Madurai,Anitha,46,Surya,Madurai,2026-03-30,Closed,185813,Witness,Critical,Unsolved
+FIR475,Robbery,Robbery Case,Robbery reported in Chennai,Rahul,27,Madhan,Chennai,2025-08-06,Closed,456247,Email Logs,Medium,Solved
+FIR476,Cyber Crime,Cyber Crime Case,Cyber Crime reported in Chennai,Kavin,52,Bharath,Chennai,2025-11-20,Under Investigation,227321,Fingerprint,Low,Unsolved
+FIR477,Assault,Assault Case,Assault reported in Coimbatore,Divya,34,Gokul,Coimbatore,2025-10-23,Under Investigation,103468,Fingerprint,Critical,Solved
+FIR478,Drug Crime,Drug Crime Case,Drug Crime reported in Tiruppur,Vignesh,59,Sarath,Tiruppur,2026-06-24,Open,39772,Fingerprint,Critical,Unsolved
+FIR479,Fraud,Fraud Case,Fraud reported in Chennai,Divya,50,Madhan,Chennai,2025-12-14,Closed,46406,CCTV,Medium,Unsolved
+FIR480,Assault,Assault Case,Assault reported in Erode,Kavin,48,Ashok,Erode,2026-04-13,Under Investigation,271149,Fingerprint,Medium,Solved
+FIR481,Kidnapping,Kidnapping Case,Kidnapping reported in Madurai,Ajay,30,Surya,Madurai,2025-10-16,Closed,480717,Email Logs,Low,Unsolved
+FIR482,Drug Crime,Drug Crime Case,Drug Crime reported in Vellore,Swetha,51,Dinesh,Vellore,2025-11-02,Under Investigation,129619,Bank Records,High,Solved
+FIR483,Financial Crime,Financial Crime Case,Financial Crime reported in Erode,Kavin,27,Bharath,Erode,2025-08-03,Under Investigation,425875,Mobile Data,Medium,Unsolved
+FIR484,Financial Crime,Financial Crime Case,Financial Crime reported in Salem,Vignesh,20,Vikram,Salem,2025-07-01,Resolved,128615,Bank Records,Low,Solved
+FIR485,Domestic Violence,Domestic Violence Case,Domestic Violence reported in Trichy,Swetha,36,Senthil,Trichy,2026-05-12,Open,305014,Bank Records,Low,Solved
+FIR486,Kidnapping,Kidnapping Case,Kidnapping reported in Trichy,Arjun,36,Gokul,Trichy,2025-08-30,Closed,46392,CCTV,Critical,Solved
+FIR487,Robbery,Robbery Case,Robbery reported in Salem,Naveen,52,Dinesh,Salem,2025-12-14,Under Investigation,188356,CCTV,High,Solved
+FIR488,Fraud,Fraud Case,Fraud reported in Trichy,Divya,46,Hari,Trichy,2025-11-23,Closed,153021,Email Logs,High,Unsolved
+FIR489,Kidnapping,Kidnapping Case,Kidnapping reported in Vellore,Ajay,25,Bharath,Vellore,2026-03-26,Under Investigation,496727,Bank Records,High,Solved
+FIR490,Drug Crime,Drug Crime Case,Drug Crime reported in Coimbatore,Arjun,55,Aravind,Coimbatore,2025-10-08,Resolved,399800,Mobile Data,Medium,Unsolved
+FIR491,Robbery,Robbery Case,Robbery reported in Chennai,Rahul,27,Madhan,Chennai,2025-11-23,Closed,403800,CCTV,High,Solved
+FIR492,Cyber Crime,Cyber Crime Case,Cyber Crime reported in Vellore,Naveen,52,Prakash,Vellore,2025-10-25,Closed,378908,Email Logs,Medium,Unsolved
+FIR493,Burglary,Burglary Case,Burglary reported in Trichy,Priya,56,Senthil,Trichy,2025-10-22,Resolved,195105,CCTV,Medium,Solved
+FIR494,Fraud,Fraud Case,Fraud reported in Trichy,Harini,24,Gokul,Trichy,2025-07-13,Under Investigation,434795,CCTV,Medium,Unsolved
+FIR495,Fraud,Fraud Case,Fraud reported in Madurai,Deepak,51,Sarath,Madurai,2025-11-30,Open,284279,Mobile Data,Medium,Unsolved
+FIR496,Theft,Theft Case,Theft reported in Salem,Ajay,19,Senthil,Salem,2025-07-08,Under Investigation,184511,Fingerprint,Medium,Solved
+FIR497,Robbery,Robbery Case,Robbery reported in Erode,Kavin,18,Bharath,Erode,2025-10-11,Open,302757,Mobile Data,High,Solved
+FIR498,Cyber Crime,Cyber Crime Case,Cyber Crime reported in Madurai,Harini,49,Vikram,Madurai,2025-09-29,Closed,110663,Witness,High,Solved
+FIR499,Domestic Violence,Domestic Violence Case,Domestic Violence reported in Erode,Anitha,53,Vikram,Erode,2025-11-27,Open,76391,Email Logs,High,Solved
+FIR500,Cyber Crime,Cyber Crime Case,Cyber Crime reported in Chennai,Arjun,58,Aravind,Chennai,2026-03-15,Resolved,109299,Bank Records,Medium,Solved
