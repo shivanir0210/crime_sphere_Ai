@@ -47,7 +47,8 @@ function UploadDocument({ onUpload, disabled, language = 'en' }) {
       name: file.name,
       type: extension.toUpperCase(),
       size: sizeStr,
-      time: timeStr
+      time: timeStr,
+      rawFile: file
     });
 
     // Reset input so the same file can be uploaded again if needed
