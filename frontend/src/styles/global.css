@@ -769,3 +769,238 @@ a:hover {
     max-width: 85%;
   }
 }
+
+/* ==========================================================================
+   Document Upload and Analysis Custom Styling
+   ========================================================================== */
+.upload-document-btn {
+  color: var(--text-secondary);
+}
+
+.upload-document-btn:hover:not(:disabled) {
+  color: var(--accent-color) !important;
+  background-color: rgba(6, 182, 212, 0.08) !important;
+}
+
+/* Document Upload Card (User message representation) */
+.document-upload-card {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background: rgba(0, 0, 0, 0.2);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-md);
+  padding: 10px 14px;
+  min-width: 240px;
+}
+
+.doc-icon-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--accent-color);
+  background: rgba(6, 182, 212, 0.1);
+  padding: 8px;
+  border-radius: var(--radius-sm);
+  border: 1px solid rgba(6, 182, 212, 0.2);
+}
+
+.doc-meta-info {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.doc-name {
+  font-weight: 600;
+  font-size: 13.5px;
+  color: var(--text-color);
+  word-break: break-all;
+}
+
+.doc-details {
+  font-size: 11px;
+  color: var(--text-secondary);
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.dot-divider {
+  opacity: 0.4;
+  margin: 0 2px;
+}
+
+/* Document Analysis AI Report Card */
+.document-analysis-card {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  min-width: 260px;
+  max-width: 100%;
+}
+
+.analysis-card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--border-color);
+  padding-bottom: 8px;
+}
+
+.analysis-title {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--accent-color);
+}
+
+.analysis-title svg {
+  color: var(--accent-color);
+}
+
+.analysis-card-body {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.analysis-section {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.analysis-section-title {
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--text-secondary);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.analysis-summary-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 8px;
+  background: rgba(0, 0, 0, 0.15);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-sm);
+  padding: 10px;
+}
+
+.summary-item {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.summary-label {
+  font-size: 10.5px;
+  color: var(--text-secondary);
+}
+
+.summary-value {
+  font-size: 12.5px;
+  font-weight: 600;
+  color: var(--text-color);
+}
+
+.text-glow-risk {
+  text-shadow: 0 0 6px rgba(239, 68, 68, 0.4);
+}
+
+.analysis-locations-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.location-item {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 12px;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-sm);
+  padding: 4px 8px;
+  color: var(--text-color);
+}
+
+.location-item svg {
+  color: var(--accent-color);
+  flex-shrink: 0;
+}
+
+/* AI Risk Score Badges mappings */
+.badge-high {
+  background-color: rgba(239, 68, 68, 0.1);
+  color: var(--danger-color);
+  border: 1px solid rgba(239, 68, 68, 0.2);
+}
+
+.badge-medium {
+  background-color: rgba(245, 158, 11, 0.1);
+  color: var(--warning-color);
+  border: 1px solid rgba(245, 158, 11, 0.2);
+}
+
+.badge-low {
+  background-color: rgba(34, 197, 94, 0.1);
+  color: var(--success-color);
+  border: 1px solid rgba(34, 197, 94, 0.2);
+}
+
+/* AI Assistant Proactive Guidance Suggestions */
+.assistant-suggestions-area {
+  margin-top: 12px;
+  border-top: 1px dashed var(--border-color);
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  width: 100%;
+}
+
+.assistant-header-title {
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--text-secondary);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.assistant-chips-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.assistant-chip {
+  font-size: 11px;
+  padding: 5px 12px;
+  border-radius: var(--radius-full);
+  border: 1px solid var(--border-color);
+  background-color: rgba(255, 255, 255, 0.02);
+  color: var(--accent-color);
+  cursor: pointer;
+  font-weight: 600;
+  transition: all var(--transition-fast);
+  outline: none;
+}
+
+.assistant-chip:hover:not(:disabled) {
+  border-color: var(--accent-color);
+  background-color: rgba(6, 182, 212, 0.06) ;
+  box-shadow: var(--glow-accent);
+}
+
+.assistant-chip:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+

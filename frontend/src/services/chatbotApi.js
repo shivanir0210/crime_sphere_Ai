@@ -1,13 +1,13 @@
+import { queryCrimeData } from './crimeQueryEngine';
+
 /**
- * Mock chatbot API service for CrimeSphere AI.
- * Simulates network response delay for a more natural UX.
+ * Stateful Mock Crime Intelligence API Service - Phase 4.
+ * Simulates database search query latency (800ms)
+ * and delegates search logic to the Smart Crime Query Engine.
  */
-export const sendMessage = async (message) => {
-  // Simulate a 500ms API response delay
-  await new Promise((resolve) => setTimeout(resolve, 500));
-  
-  return {
-    success: true,
-    response: "Found 3 repeat offenders in Bengaluru."
-  };
+export const sendMessage = async (message, context = {}, language = 'en') => {
+  // Simulate database search latency (800ms) to display loader
+  await new Promise((resolve) => setTimeout(resolve, 800));
+
+  return queryCrimeData(message, context, language);
 };
